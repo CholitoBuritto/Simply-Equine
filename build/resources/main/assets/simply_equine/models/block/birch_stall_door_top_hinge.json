@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top_rh",
+    "textures": {
+        "bottom": "simply_equine:block/birch_stall_door_bottom",
+        "top": "simply_equine:block/birch_stall_door_top"
+    }
+}

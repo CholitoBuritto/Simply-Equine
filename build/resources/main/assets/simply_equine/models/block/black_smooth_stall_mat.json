@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"particle": "simply_equine:block/black_smooth_stall_mat",
+		"down": "simply_equine:block/black_smooth_stall_mat",
+		"up": "simply_equine:block/black_smooth_stall_mat",
+		"north": "simply_equine:block/black_smooth_stall_mat",
+		"east": "simply_equine:block/black_smooth_stall_mat",
+		"south": "simply_equine:block/black_smooth_stall_mat",
+		"west": "simply_equine:block/black_smooth_stall_mat"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"layers=1":  { "model": "simply_equine:block/shavings_height2" },
+		"layers=2":  { "model": "simply_equine:block/shavings_height4" },
+		"layers=3":  { "model": "simply_equine:block/shavings_height6" },
+		"layers=4":  { "model": "simply_equine:block/shavings_height8" },
+		"layers=5":  { "model": "simply_equine:block/shavings_height10" },
+		"layers=6":  { "model": "simply_equine:block/shavings_height12" },
+		"layers=7":  { "model": "simply_equine:block/shavings_height14" },
+		"layers=8":  { "model": "simply_equine:block/shavings_block" }
+	}
+}
+
