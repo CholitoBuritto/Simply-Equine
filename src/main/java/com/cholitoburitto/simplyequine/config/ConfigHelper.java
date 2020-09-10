@@ -7,10 +7,8 @@ public final class ConfigHelper {
 
     public static void bakeCommon(final ModConfig config) {
         commonConfig = config;
-
-        TutorialConfig.enablePowderLayers = ConfigHolder.COMMON.enablePowderLayers.get();
+        SimplyEquineConfig.enableLayers = ConfigHolder.COMMON.enableLayers.get();
     }
-
     public static void setValueAndSave(final ModConfig modConfig, final String path, final Object newValue) {
         modConfig.getConfigData().set(path, newValue);
         modConfig.save();
