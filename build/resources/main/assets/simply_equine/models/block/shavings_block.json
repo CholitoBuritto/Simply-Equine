@@ -1,12 +1,6 @@
 {
-	"parent": "block/cube",
-	"textures": {
-		"particle": "simply_equine:block/shavings_block",
-		"down": "simply_equine:block/shavings_block",
-		"up": "simply_equine:block/shavings_block",
-		"north": "simply_equine:block/shavings_block",
-		"east": "simply_equine:block/shavings_block",
-		"south": "simply_equine:block/shavings_block",
-		"west": "simply_equine:block/shavings_block"
-	}
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "simply_equine:block/shavings_block"
+  }
 }

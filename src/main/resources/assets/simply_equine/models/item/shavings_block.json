@@ -1,4 +1,3 @@
 {
-	"parent": "simply_equine:block/shavings_height2"
-} 
-
+  "parent": "simply_equine:block/shavings_block_layer2"
+}

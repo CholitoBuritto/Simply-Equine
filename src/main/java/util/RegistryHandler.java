@@ -3,6 +3,7 @@ package util;
 import com.cholitoburitto.simplyequine.simply_equine;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -255,7 +256,6 @@ public class RegistryHandler {
     public static final RegistryObject<Item>  BIRCH_STALL_DOOR = ITEMS.register("birch_stall_door", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.BIRCH_STALL_DOOR.get()));
     public static final RegistryObject<Item>  DARK_OAK_STALL_DOOR = ITEMS.register("dark_oak_stall_door", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.DARK_OAK_STALL_DOOR.get()));
 
-
     //stall mats
     public static final RegistryObject<Item> BLACK_CROSSED_STALL_MAT = ITEMS.register("black_crossed_stall_mat", () -> new BlockItem(ModBlocks.BLACK_CROSSED_STALL_MAT.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
     public static final RegistryObject<Item> GRAY_CROSSED_STALL_MAT = ITEMS.register("gray_crossed_stall_mat", () -> new BlockItem(ModBlocks.GRAY_CROSSED_STALL_MAT.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
@@ -263,6 +263,28 @@ public class RegistryHandler {
     public static final RegistryObject<Item> BLACK_SMOOTH_STALL_MAT = ITEMS.register("black_smooth_stall_mat", () -> new BlockItem(ModBlocks.BLACK_SMOOTH_STALL_MAT.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
     public static final RegistryObject<Item> GRAY_SMOOTH_STALL_MAT = ITEMS.register("gray_smooth_stall_mat", () -> new BlockItem(ModBlocks.GRAY_SMOOTH_STALL_MAT.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
     public static final RegistryObject<Item> LIGHT_GRAY_SMOOTH_STALL_MAT = ITEMS.register("light_gray_smooth_stall_mat", () -> new BlockItem(ModBlocks.LIGHT_GRAY_SMOOTH_STALL_MAT.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+
+    //rubber
+    public static final RegistryObject<Item> RUBBER_EXTRACTOR = ITEMS.register("rubber_extractor", () -> new Item(new Item.Properties().maxStackSize(1).group(simply_equine.EQUINE_ITEMS)));
+    public static final RegistryObject<Item> RUBBER = ITEMS.register("rubber", () -> new Item(new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_ITEMS)));
+
+    //jump poles
+    public static final RegistryObject<Item> BLACK_JUMP_POLE = ITEMS.register("black_jump_pole", () -> new BlockItem(ModBlocks.BLACK_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> BLUE_JUMP_POLE = ITEMS.register("blue_jump_pole", () -> new BlockItem(ModBlocks.BLUE_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> BROWN_JUMP_POLE = ITEMS.register("brown_jump_pole", () -> new BlockItem(ModBlocks.BROWN_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> CYAN_JUMP_POLE = ITEMS.register("cyan_jump_pole", () -> new BlockItem(ModBlocks.CYAN_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> GRAY_JUMP_POLE = ITEMS.register("gray_jump_pole", () -> new BlockItem(ModBlocks.GRAY_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> GREEN_JUMP_POLE = ITEMS.register("green_jump_pole", () -> new BlockItem(ModBlocks.GREEN_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> LIGHT_BLUE_JUMP_POLE = ITEMS.register("light_blue_jump_pole", () -> new BlockItem(ModBlocks.LIGHT_BLUE_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> LIGHT_GRAY_JUMP_POLE = ITEMS.register("light_gray_jump_pole", () -> new BlockItem(ModBlocks.LIGHT_GRAY_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> LIME_GREEN_JUMP_POLE = ITEMS.register("lime_green_jump_pole", () -> new BlockItem(ModBlocks.LIME_GREEN_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> MAGENTA_JUMP_POLE = ITEMS.register("magenta_jump_pole", () -> new BlockItem(ModBlocks.MAGENTA_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> ORANGE_JUMP_POLE = ITEMS.register("orange_jump_pole", () -> new BlockItem(ModBlocks.ORANGE_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> PINK_JUMP_POLE = ITEMS.register("pink_jump_pole", () -> new BlockItem(ModBlocks.PINK_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> PURPLE_JUMP_POLE = ITEMS.register("purple_jump_pole", () -> new BlockItem(ModBlocks.PURPLE_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> RED_JUMP_POLE = ITEMS.register("red_jump_pole", () -> new BlockItem(ModBlocks.RED_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> WHITE_JUMP_POLE = ITEMS.register("white_jump_pole", () -> new BlockItem(ModBlocks.WHITE_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> YELLOW_JUMP_POLE = ITEMS.register("yellow_jump_pole", () -> new BlockItem(ModBlocks.YELLOW_JUMP_POLE.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
 
 
 }

@@ -1,4 +1,6 @@
 {
+	"itemGroup.Equine_Items": "Equine Items",
+
 	"item.simply_equine.blue_rosette": "Blue Rosette",
 	"item.simply_equine.red_rosette": "Red Rosette",
 	"item.simply_equine.yellow_rosette": "Yellow Rosette",
@@ -209,14 +211,33 @@
 	"item.simply_equine.pink_body_brush": "Pink Body Brush",
 	"item.simply_equine.brown_body_brush": "Brown Body Brush",
 	"item.simply_equine.white_body_brush": "White Body Brush",
-	
+
 	"item.simply_equine.thatch": "Thatch",
+
+	"itemGroup.Equine_Blocks": "Equine Blocks",
+
+	"item.simply_equine.rubber": "Rubber",
+	"item.simply_equine.rubber_extractor": "Rubber Extractor",
 	
 	"block.simply_equine.thatch_block": "Thatch Block",
-	"block.simply_equine.shavings_block": "Shavings Block",
+	"block.simply_equine.shavings_block": "Shavings",
 	"block.simply_equine.stall_bars_1": "Stall Bars 1",
-	
-	"itemGroup.Equine_Items": "Equine Items",
-	"itemGroup.Equine_Blocks": "Equine Blocks"
-	
-} 
+
+	"block.simply_equine.black_jump_pole": "Black Jump Pole",
+	"block.simply_equine.blue_jump_pole": "Blue Jump Pole",
+	"block.simply_equine.brown_jump_pole": "Brown Jump Pole",
+	"block.simply_equine.cyan_jump_pole": "Cyan Jump Pole",
+	"block.simply_equine.gray_jump_pole": "Gray Jump Pole",
+	"block.simply_equine.green_jump_pole": "Green Jump Pole",
+	"block.simply_equine.light_blue_jump_pole": "Light Blue Jump Pole",
+	"block.simply_equine.light_gray_jump_pole": "Light Gray Jump Pole",
+	"block.simply_equine.lime_green_jump_pole": "Lime Green Jump Pole",
+	"block.simply_equine.magenta_jump_pole": "Magenta Jump Pole",
+	"block.simply_equine.orange_jump_pole": "Orange Jump Pole",
+	"block.simply_equine.pink_jump_pole": "Pink Jump Pole",
+	"block.simply_equine.purple_jump_pole": "Purple Jump Pole",
+	"block.simply_equine.red_jump_pole": "Red Jump Pole",
+	"block.simply_equine.white_jump_pole": "White Jump Pole",
+	"block.simply_equine.yellow_jump_pole": "Yellow Jump Pole"
+
+}
