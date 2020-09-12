@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "sss",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:brown_concrete"
+    },
+    "s":
+    {
+      "item": "minecraft:brown_wool"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:brown_dandy_brush",
+    "count": 1
+  }
+}

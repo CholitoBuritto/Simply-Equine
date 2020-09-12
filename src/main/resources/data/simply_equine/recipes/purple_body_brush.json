@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    " xs",
+    "xs "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:purple_concrete"
+    },
+    "s":
+    {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:purple_body_brush",
+    "count": 1
+  }
+}

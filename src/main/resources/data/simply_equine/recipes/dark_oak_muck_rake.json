@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    " x ",
+    "sss"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "s":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:dark_oak_muck_rake",
+    "count": 1
+  }
+}

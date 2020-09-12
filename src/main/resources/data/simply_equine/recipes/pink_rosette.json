@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "x",
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:pink_rosette",
+    "count": 1
+  }
+}

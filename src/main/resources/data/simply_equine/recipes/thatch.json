@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "simply_equine:thatch_block"
+    }
+  ],
+  "result":
+  {
+    "item": "simply_equine:thatch",
+    "count": 9
+  }
+}

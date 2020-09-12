@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sss",
+    " ss",
+    " x "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:lime_concrete"
+    },
+    "s":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:lime_green_hoof_pick",
+    "count": 1
+  }
+}
