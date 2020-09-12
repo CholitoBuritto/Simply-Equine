@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "sss",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:lime_concrete"
+    },
+    "s":
+    {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:lime_green_dandy_brush",
+    "count": 1
+  }
+}

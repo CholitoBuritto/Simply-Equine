@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " sx",
+    " xd",
+    "xd "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:stick"
+    },
+    "d":
+    {
+      "item": "minecraft:string"
+    },
+    "s":
+    {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:brown_lunge_whip",
+    "count": 1
+  }
+}

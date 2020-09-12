@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xsx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "simply_equine:rubber"
+    },
+    "s":
+    {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:red_rubber_curry_comb",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sss",
+    " ss",
+    " x "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:pink_concrete"
+    },
+    "s":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:pink_hoof_pick",
+    "count": 1
+  }
+}

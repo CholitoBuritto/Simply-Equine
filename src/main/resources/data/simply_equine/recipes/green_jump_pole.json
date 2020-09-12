@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    "wdw",
+    "x x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:gray_concrete"
+    },
+    "w":
+    {
+      "item": "minecraft:white_concrete"
+    },
+    "d":
+    {
+      "item": "minecraft:green_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:green_jump_pole",
+    "count": 1
+  }
+}

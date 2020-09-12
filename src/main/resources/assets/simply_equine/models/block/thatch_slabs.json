@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "simply_equine:block/thatch_block",
+    "top": "simply_equine:block/thatch_block",
+    "side": "simply_equine:block/thatch_block"
+  }
+}

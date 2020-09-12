@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result":
+  {
+    "item": "simply_equine:thatch",
+    "count": 1
+  }
+}
