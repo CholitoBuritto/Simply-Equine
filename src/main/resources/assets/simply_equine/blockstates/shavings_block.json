@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "variants": {
     "layers=1":  { "model": "simply_equine:block/shavings_block_layer2" },
@@ -9,4 +10,17 @@
     "layers=7":  { "model": "simply_equine:block/shavings_block_layer14" },
     "layers=8":  { "model": "simply_equine:block/shavings_block" }
   }
+=======
+{
+  "variants": {
+    "layers=1":  { "model": "simply_equine:block/shavings_block_layer2" },
+    "layers=2":  { "model": "simply_equine:block/shavings_block_layer4" },
+    "layers=3":  { "model": "simply_equine:block/shavings_block_layer6" },
+    "layers=4":  { "model": "simply_equine:block/shavings_block_layer8" },
+    "layers=5":  { "model": "simply_equine:block/shavings_block_layer10" },
+    "layers=6":  { "model": "simply_equine:block/shavings_block_layer12" },
+    "layers=7":  { "model": "simply_equine:block/shavings_block_layer14" },
+    "layers=8":  { "model": "simply_equine:block/shavings_block" }
+  }
+>>>>>>> d1273c0d912c743a9a5b9fea211f559f924914ba
 }

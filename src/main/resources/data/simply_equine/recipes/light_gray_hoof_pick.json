@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sss",
+    " ss",
+    " x "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:light_gray_concrete"
+    },
+    "s":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:light_gray_hoof_pick",
+    "count": 1
+  }
+}

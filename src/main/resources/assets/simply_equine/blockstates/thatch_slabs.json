@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "simply_equine:block/thatch_slabs" },
+    "type=top": { "model": "simply_equine:block/thatch_slabs_top" },
+    "type=double": { "model": "simply_equine:block/thatch_block" }
+  }
+}

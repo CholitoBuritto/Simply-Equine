@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:purple_wool"
+    }
+  ],
+  "result":
+  {
+    "item": "simply_equine:purple_sponge",
+    "count": 1
+  }
+}

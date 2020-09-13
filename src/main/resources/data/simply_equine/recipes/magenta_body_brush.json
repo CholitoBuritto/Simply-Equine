@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    " xs",
+    "xs "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:magenta_concrete"
+    },
+    "s":
+    {
+      "item": "minecraft:magenta_wool"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:magenta_body_brush",
+    "count": 1
+  }
+}

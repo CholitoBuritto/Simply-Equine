@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "sxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:pink_wool"
+    },
+    "s":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:pink_lead",
+    "count": 1
+  }
+}

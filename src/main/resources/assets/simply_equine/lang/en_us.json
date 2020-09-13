@@ -220,9 +220,24 @@
 	"item.simply_equine.rubber_extractor": "Rubber Extractor",
 	
 	"block.simply_equine.thatch_block": "Thatch Block",
+<<<<<<< HEAD
 	"block.simply_equine.shavings_block": "Shavings",
 	"block.simply_equine.stall_bars_1": "Stall Bars 1",
 
+=======
+	"block.simply_equine.thatch_stairs": "Thatch Stairs",
+	"block.simply_equine.thatch_slabs": "Thatch Slabs",
+	"block.simply_equine.shavings_block": "Shavings",
+	"block.simply_equine.stall_bars_1": "Stall Bars 1",
+
+	"block.simply_equine.oak_stall_door": "Oak Stall Door",
+	"block.simply_equine.spruce_stall_door": "Spruce Stall Door",
+	"block.simply_equine.birch_stall_door": "Birch Stall Door",
+	"block.simply_equine.acacia_stall_door": "Acacia Stall Door",
+	"block.simply_equine.dark_oak_stall_door": "Dark Oak Stall Door",
+	"block.simply_equine.jungle_stall_door": "Jungle Stall Door",
+
+>>>>>>> d1273c0d912c743a9a5b9fea211f559f924914ba
 	"block.simply_equine.black_jump_pole": "Black Jump Pole",
 	"block.simply_equine.blue_jump_pole": "Blue Jump Pole",
 	"block.simply_equine.brown_jump_pole": "Brown Jump Pole",
@@ -238,6 +253,18 @@
 	"block.simply_equine.purple_jump_pole": "Purple Jump Pole",
 	"block.simply_equine.red_jump_pole": "Red Jump Pole",
 	"block.simply_equine.white_jump_pole": "White Jump Pole",
+<<<<<<< HEAD
 	"block.simply_equine.yellow_jump_pole": "Yellow Jump Pole"
+=======
+	"block.simply_equine.yellow_jump_pole": "Yellow Jump Pole",
+
+	"block.simply_equine.black_crossed_stall_mat": "Black Crossed Stall Mat",
+	"block.simply_equine.gray_crossed_stall_mat": "Gray Crossed Stall Mat",
+	"block.simply_equine.light_gray_crossed_stall_mat": "Light Gray Crossed Stall Mat",
+	"block.simply_equine.black_smooth_stall_mat": "Black Smooth Stall Mat",
+	"block.simply_equine.gray_smooth_stall_mat": "Gray Smooth Stall Mat",
+	"block.simply_equine.light_gray_smooth_stall_mat": "Light Gray Smooth Stall Mat"
+
+>>>>>>> d1273c0d912c743a9a5b9fea211f559f924914ba
 
 }

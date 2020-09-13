@@ -247,6 +247,8 @@ public class RegistryHandler {
 
     //block items
     public static final RegistryObject<Item> THATCH_BLOCK = ITEMS.register("thatch_block", () -> new BlockItem(ModBlocks.THATCH_BLOCK.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> THATCH_STAIRS = ITEMS.register("thatch_stairs", () -> new BlockItem(ModBlocks.THATCH_STAIRS.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
+    public static final RegistryObject<Item> THATCH_SLABS = ITEMS.register("thatch_slabs", () -> new BlockItem(ModBlocks.THATCH_SLABS.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
     public static final RegistryObject<Item> SHAVINGS_BLOCK = ITEMS.register("shavings_block", () -> new BlockItem(ModBlocks.SHAVINGS_BLOCK.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
     public static final RegistryObject<Item>  STALL_BARS_1 = ITEMS.register("stall_bars_1", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.STALL_BARS_1.get()));
     public static final RegistryObject<Item>  OAK_STALL_DOOR = ITEMS.register("oak_stall_door", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.OAK_STALL_DOOR.get()));
