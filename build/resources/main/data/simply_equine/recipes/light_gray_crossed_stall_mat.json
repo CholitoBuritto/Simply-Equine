@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xsx",
+    "sxs",
+    "xsx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:light_gray_concrete"
+    },
+    "s":
+    {
+      "item": "minecraft:light_gray_wool"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:light_gray_crossed_stall_mat",
+    "count": 9
+  }
+}

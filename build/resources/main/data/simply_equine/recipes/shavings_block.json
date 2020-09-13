@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "simply_equine:thatch"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:shavings_block",
+    "count": 1
+  }
+}

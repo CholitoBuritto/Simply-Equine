@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:block",
+	"name": "simply_equine:thatch_block",
+	"pools": [
+	{
+		"rolls": 1,
+		"entries": [
+		{
+			"type": "minecraft:item",
+			"name": "simply_equine:thatch_block"
+		}
+		]
+	}
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "  x",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:rubber_extractor",
+    "count": 1
+  }
+}
