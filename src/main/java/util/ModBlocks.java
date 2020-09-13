@@ -14,11 +14,8 @@ public class ModBlocks {
     //blocks
     public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, simply_equine.MOD_ID);
     public static final RegistryObject<Block> THATCH_BLOCK = BLOCKS.register("thatch_block", () -> new Block(Block.Properties.create(Material.PLANTS).sound(SoundType.PLANT).hardnessAndResistance(0.5F,0.5F)));
-<<<<<<< HEAD
-=======
     public static final RegistryObject<Block> THATCH_STAIRS = BLOCKS.register("thatch_stairs", () -> new StairsBlock(() -> ModBlocks.THATCH_BLOCK.get().getDefaultState() , Block.Properties.from(ModBlocks.THATCH_BLOCK.get())));
     public static final RegistryObject<Block> THATCH_SLABS = BLOCKS.register("thatch_slabs", () -> new SlabBlock(Block.Properties.from(ModBlocks.THATCH_BLOCK.get())));
->>>>>>> d1273c0d912c743a9a5b9fea211f559f924914ba
     public static final RegistryObject<Block> SHAVINGS_BLOCK = BLOCKS.register("shavings_block", ShavingsBlockLayers::new);
     public static final RegistryObject<Block> STALL_BARS_1 = BLOCKS.register("stall_bars_1", () -> new com.cholitoburitto.simplyequine.blocks.BlockBarsBase(Block.Properties.create(Material.IRON)));
 

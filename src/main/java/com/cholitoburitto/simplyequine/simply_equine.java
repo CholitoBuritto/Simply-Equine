@@ -1,5 +1,6 @@
 package com.cholitoburitto.simplyequine;
 
+import com.cholitoburitto.simplyequine.init.ModEntityTypes;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
@@ -59,6 +60,9 @@ public class simply_equine {
 
                 getModEventBus());
         ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().
+
+                getModEventBus());
+        ModEntityTypes.ENTITY_TYPES.register(FMLJavaModLoadingContext.get().
 
                 getModEventBus());
         MinecraftForge.EVENT_BUS.register(GroomingTools .class);

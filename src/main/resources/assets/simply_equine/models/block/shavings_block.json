@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 {
   "parent": "block/cube_all",
   "textures": {
     "all": "simply_equine:block/shavings_block"
   }
 }
-=======
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "simply_equine:block/shavings_block"
-  }
-}
->>>>>>> d1273c0d912c743a9a5b9fea211f559f924914ba
