@@ -3,11 +3,15 @@ package com.cholitoburitto.simplyequine;
 import com.cholitoburitto.simplyequine.client.entity.model.ThoroughbredEntityModel;
 import com.cholitoburitto.simplyequine.entities.ThoroughbredEntity;
 import com.cholitoburitto.simplyequine.init.ModEntityTypes;
+import com.cholitoburitto.simplyequine.items.ThoroughbredSpawnEggItem;
+import net.minecraft.entity.EntityType;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
@@ -89,7 +93,6 @@ public class simply_equine {
                 ClientEvents.subscribeClientEvents(modBus, forgeBus);
             }
         }
-
 
     }
 }
