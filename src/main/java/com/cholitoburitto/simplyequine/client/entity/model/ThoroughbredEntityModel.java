@@ -1,319 +1,254 @@
 package com.cholitoburitto.simplyequine.client.entity.model;
 
 import com.cholitoburitto.simplyequine.entities.ThoroughbredEntity;
-import com.mojang.blaze3d.matrix.MatrixStack;
-import com.mojang.blaze3d.vertex.IVertexBuilder;
-import net.minecraft.client.renderer.entity.model.EntityModel;
-import net.minecraft.client.renderer.model.Model;
-import net.minecraft.client.renderer.model.ModelRenderer;
-//import net.minecraft.util.ResourceLocation;
-//import software.bernie.geckolib.animation.model.AnimatedEntityModel;
-//import software.bernie.geckolib.animation.render.ModelRenderer;
+import net.minecraft.util.ResourceLocation;
+import software.bernie.geckolib.animation.model.AnimatedEntityModel;
+import software.bernie.geckolib.animation.render.AnimatedModelRenderer;
 
-public class ThoroughbredEntityModel<T extends ThoroughbredEntity> extends EntityModel<T> {
+public class ThoroughbredEntityModel extends AnimatedEntityModel<ThoroughbredEntity> {
 
-        private final ModelRenderer body;
-        private final ModelRenderer main;
-        private final ModelRenderer neck;
-        private final ModelRenderer head;
-        private final ModelRenderer leftfrontleg;
-        private final ModelRenderer shoulder;
-        private final ModelRenderer fore;
-        private final ModelRenderer cannon;
-        private final ModelRenderer hoof;
-        private final ModelRenderer leftbackleg;
-        private final ModelRenderer stifle;
-        private final ModelRenderer gaskin;
-        private final ModelRenderer cannonrear;
-        private final ModelRenderer hoof2;
-        private final ModelRenderer rightfrontleg;
-        private final ModelRenderer shoulder2;
-        private final ModelRenderer fore2;
-        private final ModelRenderer cannon2;
-        private final ModelRenderer hoof3;
-        private final ModelRenderer tail;
-        private final ModelRenderer hair;
-        private final ModelRenderer dock;
-        private final ModelRenderer rightbackleg;
-        private final ModelRenderer stifle2;
-        private final ModelRenderer gaskin2;
-        private final ModelRenderer cannonrear2;
-        private final ModelRenderer hoof4;
+    private final AnimatedModelRenderer body;
+    private final AnimatedModelRenderer main;
+    private final AnimatedModelRenderer neck;
+    private final AnimatedModelRenderer head;
+    private final AnimatedModelRenderer leftfrontleg;
+    private final AnimatedModelRenderer shoulder;
+    private final AnimatedModelRenderer fore;
+    private final AnimatedModelRenderer cannon;
+    private final AnimatedModelRenderer hoof;
+    private final AnimatedModelRenderer leftbackleg;
+    private final AnimatedModelRenderer stifle;
+    private final AnimatedModelRenderer gaskin;
+    private final AnimatedModelRenderer cannonrear;
+    private final AnimatedModelRenderer hoof2;
+    private final AnimatedModelRenderer rightfrontleg;
+    private final AnimatedModelRenderer shoulder2;
+    private final AnimatedModelRenderer fore2;
+    private final AnimatedModelRenderer cannon2;
+    private final AnimatedModelRenderer hoof3;
+    private final AnimatedModelRenderer rightbackleg;
+    private final AnimatedModelRenderer stifle2;
+    private final AnimatedModelRenderer gaskin2;
+    private final AnimatedModelRenderer cannonrear2;
+    private final AnimatedModelRenderer hoof4;
+    private final AnimatedModelRenderer tail;
+    private final AnimatedModelRenderer hair;
+    private final AnimatedModelRenderer dock;
 
     public ThoroughbredEntityModel()
-        {
-            textureWidth = 128;
-            textureHeight = 128;
-            body = new ModelRenderer(this);
-            body.setRotationPoint(0.0F, 18.0F, -4.0F);
-            setRotationAngle(body, -3.1416F, 0.0F, 3.1416F);
+    {
+        textureWidth = 128;
+        textureHeight = 128;
+        body = new AnimatedModelRenderer(this);
+        body.setRotationPoint(0.0F, 18.0F, -4.0F);
+        setRotationAngle(body, -3.1416F, 0.0F, 3.1416F);
 
-            main = new ModelRenderer(this);
-            main.setRotationPoint(-1.0F, -9.75F, 4.0F);
-            body.addChild(main);
-            main.setTextureOffset(25, 29).addBox(-2.5F, -7.0F, -4.0F, 7.0F, 10.0F, 7.0F, 0.1F, false);
-            main.setTextureOffset(26, 10).addBox(-2.0F, -7.0F, -11.0F, 6.0F, 9.0F, 8.0F, -0.1F, false);
-            main.setTextureOffset(0, 39).addBox(-2.5F, -7.0F, -18.0F, 7.0F, 9.0F, 7.0F, 0.1F, false);
-            main.setTextureOffset(21, 0).addBox(-0.9F, -3.0F, 0.5F, 4.0F, 5.0F, 4.0F, 0.1F, false);
-          
-            neck = new ModelRenderer(this);
-            neck.setRotationPoint(-0.25F, -14.0F, 6.0F);
-            body.addChild(neck);
-            setRotationAngle(neck, 1.1345F, 0.0F, 0.0F);
-            neck.setTextureOffset(0, 0).addBox(-1.6F, -7.0937F, -1.0774F, 4.0F, 5.0F, 13.0F, -0.8F, false);
-            neck.setTextureOffset(0, 18).addBox(-1.6F, -4.091F, -2.3334F, 4.0F, 6.0F, 12.0F, 0.2F, false);
-         
-            head = new ModelRenderer(this);
-            head.setRotationPoint(-0.1F, -21.0F, 10.0F);
-            body.addChild(head);
-            setRotationAngle(head, -0.3491F, 0.0F, 0.0F);
-            head.setTextureOffset(47, 20).addBox(-2.25F, -2.908F, -3.9397F, 5.0F, 5.0F, 7.0F, -0.1F, false);
-            head.setTextureOffset(53, 32).addBox(-1.25F, -1.908F, -0.1897F, 3.0F, 4.0F, 7.0F, -0.1F, false);
-          
-            leftfrontleg = new ModelRenderer(this);
-            leftfrontleg.setRotationPoint(-2.5F, -9.0F, 6.25F);
-            body.addChild(leftfrontleg);
+        body.setModelRendererName("body");
+        this.registerModelRenderer(body);
 
-            shoulder = new ModelRenderer(this);
-            shoulder.setRotationPoint(-1.5F, -1.0F, 0.0F);
-            leftfrontleg.addChild(shoulder);
-            shoulder.setTextureOffset(60, 60).addBox(-1.0F, -4.0F, -3.0F, 4.0F, 6.0F, 5.0F, 0.0F, false);
-          
-            fore = new ModelRenderer(this);
-            fore.setRotationPoint(-2.0F, 0.0F, 1.0F);
-            leftfrontleg.addChild(fore);
-            fore.setTextureOffset(0, 0).addBox(0.0F, -1.0F, -3.0F, 3.0F, 8.0F, 3.0F, 0.0F, false);
-         
-            cannon = new ModelRenderer(this);
-            cannon.setRotationPoint(-0.5F, 8.0F, 0.0F);
-            leftfrontleg.addChild(cannon);
-            cannon.setTextureOffset(64, 13).addBox(-1.0F, -1.0F, -2.0F, 2.0F, 8.0F, 3.0F, 0.0F, false);
-         
-            hoof = new ModelRenderer(this);
-            hoof.setRotationPoint(-0.5F, 13.0F, -0.25F);
-            leftfrontleg.addChild(hoof);
-            hoof.setTextureOffset(65, 52).addBox(-1.5F, 0.0F, -1.75F, 3.0F, 2.0F, 3.0F, 0.1F, false);
+        main = new AnimatedModelRenderer(this);
+        main.setRotationPoint(-1.0F, -9.75F, 4.0F);
+        body.addChild(main);
+        main.setTextureOffset(25, 29).addBox(-2.5F, -7.0F, -4.0F, 7.0F, 10.0F, 7.0F, 0.1F, false);
+        main.setTextureOffset(26, 10).addBox(-2.0F, -7.0F, -11.0F, 6.0F, 9.0F, 8.0F, -0.1F, false);
+        main.setTextureOffset(0, 39).addBox(-2.5F, -7.0F, -18.0F, 7.0F, 9.0F, 7.0F, 0.1F, false);
+        main.setTextureOffset(21, 0).addBox(-0.9F, -3.0F, 0.5F, 4.0F, 5.0F, 4.0F, 0.1F, false);
+        main.setModelRendererName("main");
+        this.registerModelRenderer(main);
 
-            leftbackleg = new ModelRenderer(this);
-            leftbackleg.setRotationPoint(-1.0F, 6.0F, -5.0F);
-            body.addChild(leftbackleg);
+        neck = new AnimatedModelRenderer(this);
+        neck.setRotationPoint(-0.25F, -14.0F, 6.0F);
+        body.addChild(neck);
+        setRotationAngle(neck, 1.1345F, 0.0F, 0.0F);
+        neck.setTextureOffset(0, 0).addBox(-1.6F, -7.0937F, -1.0774F, 4.0F, 5.0F, 13.0F, -0.8F, false);
+        neck.setTextureOffset(0, 18).addBox(-1.6F, -4.091F, -2.3334F, 4.0F, 6.0F, 12.0F, 0.2F, false);
+        neck.setModelRendererName("neck");
+        this.registerModelRenderer(neck);
 
-            stifle = new ModelRenderer(this);
-            stifle.setRotationPoint(-2.5F, -15.0F, -5.0F);
-            leftbackleg.addChild(stifle);
-            stifle.setTextureOffset(45, 45).addBox(-1.0F, -6.0F, -4.75F, 2.0F, 8.0F, 8.0F, 0.0F, false);
+        head = new AnimatedModelRenderer(this);
+        head.setRotationPoint(-0.1F, -21.0F, 10.0F);
+        body.addChild(head);
+        setRotationAngle(head, -0.3491F, 0.0F, 0.0F);
+        head.setTextureOffset(47, 20).addBox(-2.25F, -2.908F, -3.9397F, 5.0F, 5.0F, 7.0F, -0.1F, false);
+        head.setTextureOffset(53, 32).addBox(-1.25F, -1.908F, -0.1897F, 3.0F, 4.0F, 7.0F, -0.1F, false);
+        head.setTextureOffset(0, 0).addBox(1.6F, -4.7025F, -3.0597F, 1.0F, 3.0F, 2.0F, 0.0F, false);
+        head.setTextureOffset(0, 0).addBox(-1.9F, -4.7025F, -3.0597F, 1.0F, 3.0F, 2.0F, 0.0F, false);
+        head.setModelRendererName("head");
+        this.registerModelRenderer(head);
 
-            gaskin = new ModelRenderer(this);
-            gaskin.setRotationPoint(-1.5F, -18.5F, -9.75F);
-            leftbackleg.addChild(gaskin);
-            setRotationAngle(gaskin, 1.309F, 0.0F, 0.0F);
-            gaskin.setTextureOffset(30, 51).addBox(-1.0F, 2.2588F, -8.9659F, 1.0F, 2.0F, 10.0F, 0.9F, false);
+        leftfrontleg = new AnimatedModelRenderer(this);
+        leftfrontleg.setRotationPoint(-2.5F, -9.0F, 6.25F);
+        body.addChild(leftfrontleg);
 
-            cannonrear = new ModelRenderer(this);
-            cannonrear.setRotationPoint(5.0F, -4.0F, -7.5F);
-            leftbackleg.addChild(cannonrear);
-            cannonrear.setTextureOffset(24, 63).addBox(-8.0F, -5.0F, -3.0F, 2.0F, 8.0F, 3.0F, -0.2F, false);
+        leftfrontleg.setModelRendererName("leftfrontleg");
+        this.registerModelRenderer(leftfrontleg);
 
-            hoof2 = new ModelRenderer(this);
-            hoof2.setRotationPoint(-2.0F, -2.0F, -8.5F);
-            leftbackleg.addChild(hoof2);
-            hoof2.setTextureOffset(30, 46).addBox(-1.5F, 0.0F, -2.0F, 3.0F, 2.0F, 3.0F, 0.1F, false);
+        shoulder = new AnimatedModelRenderer(this);
+        shoulder.setRotationPoint(-1.5F, -1.0F, 0.0F);
+        leftfrontleg.addChild(shoulder);
+        shoulder.setTextureOffset(60, 60).addBox(-1.0F, -4.0F, -3.0F, 4.0F, 6.0F, 5.0F, 0.0F, false);
+        shoulder.setModelRendererName("shoulder");
+        this.registerModelRenderer(shoulder);
 
-            rightfrontleg = new ModelRenderer(this);
-            rightfrontleg.setRotationPoint(5.5F, 4.0F, -1.75F);
-            body.addChild(rightfrontleg);
+        fore = new AnimatedModelRenderer(this);
+        fore.setRotationPoint(-2.0F, 0.0F, 1.0F);
+        leftfrontleg.addChild(fore);
+        fore.setTextureOffset(0, 0).addBox(0.0F, -1.0F, -3.0F, 3.0F, 8.0F, 3.0F, 0.0F, false);
+        fore.setModelRendererName("fore");
+        this.registerModelRenderer(fore);
 
-            shoulder2 = new ModelRenderer(this);
-            shoulder2.setRotationPoint(-1.5F, -15.0F, 7.0F);
-            rightfrontleg.addChild(shoulder2);
-            shoulder2.setTextureOffset(0, 55).addBox(-3.0F, -3.0F, -2.0F, 4.0F, 6.0F, 5.0F, 0.0F, false);
+        cannon = new AnimatedModelRenderer(this);
+        cannon.setRotationPoint(-0.5F, 8.0F, 0.0F);
+        leftfrontleg.addChild(cannon);
+        cannon.setTextureOffset(64, 13).addBox(-1.0F, -1.0F, -2.0F, 2.0F, 8.0F, 3.0F, 0.0F, false);
+        cannon.setModelRendererName("cannon");
+        this.registerModelRenderer(cannon);
 
-            fore2 = new ModelRenderer(this);
-            fore2.setRotationPoint(-2.0F, -12.0F, 7.0F);
-            rightfrontleg.addChild(fore2);
-            fore2.setTextureOffset(0, 18).addBox(-2.0F, -1.0F, -1.0F, 3.0F, 7.0F, 3.0F, 0.0F, false);
+        hoof = new AnimatedModelRenderer(this);
+        hoof.setRotationPoint(-0.5F, 13.0F, -0.25F);
+        leftfrontleg.addChild(hoof);
+        hoof.setTextureOffset(65, 52).addBox(-1.5F, 0.0F, -1.75F, 3.0F, 2.0F, 3.0F, 0.1F, false);
+        hoof.setModelRendererName("hoof");
+        this.registerModelRenderer(hoof);
 
-            cannon2 = new ModelRenderer(this);
-            cannon2.setRotationPoint(-2.5F, -6.0F, 7.0F);
-            rightfrontleg.addChild(cannon2);
-            cannon2.setTextureOffset(34, 63).addBox(-1.0F, 0.0F, -1.0F, 2.0F, 8.0F, 3.0F, 0.0F, false);
+        leftbackleg = new AnimatedModelRenderer(this);
+        leftbackleg.setRotationPoint(-1.0F, 6.0F, -5.0F);
+        body.addChild(leftbackleg);
 
-            hoof3 = new ModelRenderer(this);
-            hoof3.setRotationPoint(-3.0F, 0.0F, 8.0F);
-            rightfrontleg.addChild(hoof3);
-            hoof3.setTextureOffset(58, 0).addBox(-1.0F, 0.0F, -2.0F, 3.0F, 2.0F, 3.0F, 0.1F, false);
+        leftbackleg.setModelRendererName("leftbackleg");
+        this.registerModelRenderer(leftbackleg);
 
-            rightbackleg = new ModelRenderer(this);
-            rightbackleg.setRotationPoint(6.0F, 6.0F, -5.0F);
-            body.addChild(rightbackleg);
+        stifle = new AnimatedModelRenderer(this);
+        stifle.setRotationPoint(-2.5F, -15.0F, -5.0F);
+        leftbackleg.addChild(stifle);
+        stifle.setTextureOffset(45, 45).addBox(-1.0F, -6.0F, -4.75F, 2.0F, 8.0F, 8.0F, 0.0F, false);
+        stifle.setModelRendererName("stifle");
+        this.registerModelRenderer(stifle);
 
-            stifle2 = new ModelRenderer(this);
-            stifle2.setRotationPoint(-2.5F, -15.0F, -5.0F);
-            rightbackleg.addChild(stifle2);
-            stifle2.setTextureOffset(46, 0).addBox(-1.0F, -6.0F, -4.75F, 2.0F, 8.0F, 8.0F, 0.0F, false);
+        gaskin = new AnimatedModelRenderer(this);
+        gaskin.setRotationPoint(-1.5F, -18.5F, -9.75F);
+        leftbackleg.addChild(gaskin);
+        setRotationAngle(gaskin, 1.309F, 0.0F, 0.0F);
+        gaskin.setTextureOffset(30, 51).addBox(-1.0F, 2.2588F, -8.9659F, 1.0F, 2.0F, 10.0F, 0.9F, false);
+        gaskin.setModelRendererName("gaskin");
+        this.registerModelRenderer(gaskin);
 
-            gaskin2 = new ModelRenderer(this);
-            gaskin2.setRotationPoint(-2.5F, -18.5F, -9.75F);
-            rightbackleg.addChild(gaskin2);
-            setRotationAngle(gaskin2, 1.2217F, 0.0F, 0.0F);
-            gaskin2.setTextureOffset(18, 46).addBox(-1.0F, 3.342F, -8.9397F, 1.0F, 2.0F, 10.0F, 0.9F, false);
+        cannonrear = new AnimatedModelRenderer(this);
+        cannonrear.setRotationPoint(5.0F, -4.0F, -7.5F);
+        leftbackleg.addChild(cannonrear);
+        cannonrear.setTextureOffset(24, 63).addBox(-8.0F, -5.0F, -3.0F, 2.0F, 8.0F, 3.0F, -0.2F, false);
+        cannonrear.setModelRendererName("cannonrear");
+        this.registerModelRenderer(cannonrear);
 
-            cannonrear2 = new ModelRenderer(this);
-            cannonrear2.setRotationPoint(-3.0F, -9.0F, -8.5F);
-            rightbackleg.addChild(cannonrear2);
-            cannonrear2.setTextureOffset(49, 61).addBox(-1.0F, 0.0F, -2.0F, 2.0F, 8.0F, 3.0F, -0.2F, false);
+        hoof2 = new AnimatedModelRenderer(this);
+        hoof2.setRotationPoint(-2.0F, -2.0F, -8.5F);
+        leftbackleg.addChild(hoof2);
+        hoof2.setTextureOffset(30, 46).addBox(-1.5F, 0.0F, -2.0F, 3.0F, 2.0F, 3.0F, 0.1F, false);
+        hoof2.setModelRendererName("hoof2");
+        this.registerModelRenderer(hoof2);
 
-            hoof4 = new ModelRenderer(this);
-            hoof4.setRotationPoint(-1.5F, 1.0F, -8.5F);
-            rightbackleg.addChild(hoof4);
-            hoof4.setTextureOffset(37, 0).addBox(-3.0F, -3.0F, -2.0F, 3.0F, 2.0F, 3.0F, 0.1F, false);
+        rightfrontleg = new AnimatedModelRenderer(this);
+        rightfrontleg.setRotationPoint(5.5F, 4.0F, -1.75F);
+        body.addChild(rightfrontleg);
 
-            tail = new ModelRenderer(this);
-            tail.setRotationPoint(0.0F, -15.75F, -14.0F);
-            body.addChild(tail);
-            setRotationAngle(tail, -0.4363F, 0.0F, 0.0F);
+        rightfrontleg.setModelRendererName("rightfrontleg");
+        this.registerModelRenderer(rightfrontleg);
 
-            hair = new ModelRenderer(this);
-            hair.setRotationPoint(-0.5F, 2.2337F, -2.6711F);
-            tail.addChild(hair);
-            setRotationAngle(hair, 0.3054F, 0.0F, 0.0F);
-            hair.setTextureOffset(18, 58).addBox(0.0F, -1.1215F, -1.0343F, 1.0F, 15.0F, 2.0F, 1.0F, false);
-            hair.setTextureOffset(0, 0).addBox(-2.0F, -2.2696F, 2.1134F, 5.0F, 3.0F, 2.0F, 0.0F, false);
-            hair.setTextureOffset(0, 0).addBox(-2.0F, -15.1862F, 23.6114F, 1.0F, 3.0F, 2.0F, 0.0F, false);
-            hair.setTextureOffset(0, 0).addBox(2.0F, -15.1862F, 23.6114F, 1.0F, 3.0F, 2.0F, 0.0F, false);
+        shoulder2 = new AnimatedModelRenderer(this);
+        shoulder2.setRotationPoint(-1.5F, -15.0F, 7.0F);
+        rightfrontleg.addChild(shoulder2);
+        shoulder2.setTextureOffset(0, 55).addBox(-3.0F, -3.0F, -2.0F, 4.0F, 6.0F, 5.0F, 0.0F, false);
+        shoulder2.setModelRendererName("shoulder2");
+        this.registerModelRenderer(shoulder2);
 
-            dock = new ModelRenderer(this);
-            dock.setRotationPoint(4.0F, -0.3997F, 1.4575F);
-            tail.addChild(dock);
-            dock.setTextureOffset(57, 43).addBox(-5.5F, -0.8121F, -0.7522F, 3.0F, 6.0F, 3.0F, -0.2F, false);
+        fore2 = new AnimatedModelRenderer(this);
+        fore2.setRotationPoint(-2.0F, -12.0F, 7.0F);
+        rightfrontleg.addChild(fore2);
+        fore2.setTextureOffset(0, 18).addBox(-2.0F, -1.0F, -1.0F, 3.0F, 7.0F, 3.0F, 0.0F, false);
+        fore2.setModelRendererName("fore2");
+        this.registerModelRenderer(fore2);
 
-        }
+        cannon2 = new AnimatedModelRenderer(this);
+        cannon2.setRotationPoint(-2.5F, -6.0F, 7.0F);
+        rightfrontleg.addChild(cannon2);
+        cannon2.setTextureOffset(34, 63).addBox(-1.0F, 0.0F, -1.0F, 2.0F, 8.0F, 3.0F, 0.0F, false);
+        cannon2.setModelRendererName("cannon2");
+        this.registerModelRenderer(cannon2);
 
-        @Override
-    public void render(MatrixStack matrixStackIn, IVertexBuilder bufferIn, int packedLightIn, int packedOverlayIn, float red, float green, float blue, float alpha) {
-        body.render(matrixStackIn, bufferIn, packedLightIn, packedOverlayIn, red, green, blue, alpha);
+        hoof3 = new AnimatedModelRenderer(this);
+        hoof3.setRotationPoint(-3.0F, 0.0F, 8.0F);
+        rightfrontleg.addChild(hoof3);
+        hoof3.setTextureOffset(58, 0).addBox(-1.0F, 0.0F, -2.0F, 3.0F, 2.0F, 3.0F, 0.1F, false);
+        hoof3.setModelRendererName("hoof3");
+        this.registerModelRenderer(hoof3);
+
+        rightbackleg = new AnimatedModelRenderer(this);
+        rightbackleg.setRotationPoint(6.0F, 6.0F, -5.0F);
+        body.addChild(rightbackleg);
+
+        rightbackleg.setModelRendererName("rightbackleg");
+        this.registerModelRenderer(rightbackleg);
+
+        stifle2 = new AnimatedModelRenderer(this);
+        stifle2.setRotationPoint(-2.5F, -15.0F, -5.0F);
+        rightbackleg.addChild(stifle2);
+        stifle2.setTextureOffset(46, 0).addBox(-1.0F, -6.0F, -4.75F, 2.0F, 8.0F, 8.0F, 0.0F, false);
+        stifle2.setModelRendererName("stifle2");
+        this.registerModelRenderer(stifle2);
+
+        gaskin2 = new AnimatedModelRenderer(this);
+        gaskin2.setRotationPoint(-2.5F, -18.5F, -9.75F);
+        rightbackleg.addChild(gaskin2);
+        setRotationAngle(gaskin2, 1.2217F, 0.0F, 0.0F);
+        gaskin2.setTextureOffset(18, 46).addBox(-1.0F, 3.2588F, -8.9659F, 1.0F, 2.0F, 10.0F, 0.9F, false);
+        gaskin2.setModelRendererName("gaskin2");
+        this.registerModelRenderer(gaskin2);
+
+        cannonrear2 = new AnimatedModelRenderer(this);
+        cannonrear2.setRotationPoint(-3.0F, -9.0F, -8.5F);
+        rightbackleg.addChild(cannonrear2);
+        cannonrear2.setTextureOffset(49, 61).addBox(-1.0F, 0.0F, -2.0F, 2.0F, 8.0F, 3.0F, -0.2F, false);
+        cannonrear2.setModelRendererName("cannonrear2");
+        this.registerModelRenderer(cannonrear2);
+
+        hoof4 = new AnimatedModelRenderer(this);
+        hoof4.setRotationPoint(-1.5F, 1.0F, -8.5F);
+        rightbackleg.addChild(hoof4);
+        hoof4.setTextureOffset(37, 0).addBox(-3.0F, -3.0F, -2.0F, 3.0F, 2.0F, 3.0F, 0.1F, false);
+        hoof4.setModelRendererName("hoof4");
+        this.registerModelRenderer(hoof4);
+
+        tail = new AnimatedModelRenderer(this);
+        tail.setRotationPoint(0.0F, -15.75F, -14.0F);
+        body.addChild(tail);
+        setRotationAngle(tail, -0.4363F, 0.0F, 0.0F);
+
+        tail.setModelRendererName("tail");
+        this.registerModelRenderer(tail);
+
+        hair = new AnimatedModelRenderer(this);
+        hair.setRotationPoint(-0.5F, 2.2337F, -2.6711F);
+        tail.addChild(hair);
+        setRotationAngle(hair, 0.3054F, 0.0F, 0.0F);
+        hair.setTextureOffset(18, 58).addBox(0.0F, -1.1215F, -1.0343F, 1.0F, 15.0F, 2.0F, 1.0F, false);
+        hair.setTextureOffset(0, 0).addBox(-2.0F, -2.2696F, 2.1134F, 5.0F, 3.0F, 2.0F, 0.0F, false);
+        hair.setModelRendererName("hair");
+        this.registerModelRenderer(hair);
+
+        dock = new AnimatedModelRenderer(this);
+        dock.setRotationPoint(4.0F, -0.3997F, 1.4575F);
+        tail.addChild(dock);
+        dock.setTextureOffset(57, 43).addBox(-5.5F, -0.8121F, -0.7522F, 3.0F, 6.0F, 3.0F, -0.2F, false);
+        dock.setModelRendererName("dock");
+        this.registerModelRenderer(dock);
+
+        this.rootBones.add(body);
     }
+
 
     @Override
-    public void setRotationAngles(T entityIn, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-    }
-
-    public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
-        modelRenderer.rotateAngleX = x;
-        modelRenderer.rotateAngleY = y;
-        modelRenderer.rotateAngleZ = z;
-    }
-
-    @Override
-    public void setLivingAnimations(T entityIn, float limbSwing, float limbSwingAmount, float partialTick) {
-        super.setLivingAnimations(entityIn, limbSwing, limbSwingAmount, partialTick);
-    }
-
-    public ModelRenderer getBody() {
-        return body;
-    }
-
-    public ModelRenderer getCannon() {
-        return cannon;
-    }
-
-    public ModelRenderer getFore() {
-        return fore;
-    }
-
-    public ModelRenderer getHead() {
-        return head;
-    }
-
-    public ModelRenderer getGaskin() {
-        return gaskin;
-    }
-
-    public ModelRenderer getHoof() {
-        return hoof;
-    }
-
-    public ModelRenderer getLeftfrontleg() {
-        return leftfrontleg;
-    }
-
-    public ModelRenderer getMain() {
-        return main;
-    }
-
-    public ModelRenderer getNeck() {
-        return neck;
-    }
-
-    public ModelRenderer getShoulder() {
-        return shoulder;
-    }
-
-    public ModelRenderer getLeftbackleg() {
-        return leftbackleg;
-    }
-
-    public ModelRenderer getCannon2() {
-        return cannon2;
-    }
-
-    public ModelRenderer getStifle() {
-        return stifle;
-    }
-
-    public ModelRenderer getCannonrear() {
-        return cannonrear;
-    }
-
-    public ModelRenderer getHoof2() {
-        return hoof2;
-    }
-
-    public ModelRenderer getCannonrear2() {
-        return cannonrear2;
-    }
-
-    public ModelRenderer getDock() {
-        return dock;
-    }
-
-    public ModelRenderer getFore2() {
-        return fore2;
-    }
-
-    public ModelRenderer getGaskin2() {
-        return gaskin2;
-    }
-
-    public ModelRenderer getHair() {
-        return hair;
-    }
-
-    public ModelRenderer getHoof3() {
-        return hoof3;
-    }
-
-    public ModelRenderer getHoof4() {
-        return hoof4;
-    }
-
-    public ModelRenderer getRightbackleg() {
-        return rightbackleg;
-    }
-
-    public ModelRenderer getRightfrontleg() {
-        return rightfrontleg;
-    }
-
-    public ModelRenderer getShoulder2() {
-        return shoulder2;
-    }
-
-    public ModelRenderer getStifle2() {
-        return stifle2;
-    }
-
-    public ModelRenderer getTail() {
-        return tail;
+    public ResourceLocation getAnimationFileLocation()
+    {
+        return new ResourceLocation("simply_equine", "animations/thoroughbred_walk.json");
     }
 }

@@ -91,6 +91,12 @@ dependencies {
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.15.2-31.2.0'
 
+    implementation fg.deobf('com.github.bernie-g:geckolib:forge-1.15.2-geckolib-2.0.0-beta.7')
+}
+
+repositories {
+    maven { url 'https://jitpack.io' }
+}
     // You may put jars on which you depend on in ./libs or you may define them like so..
     // compile "some.group:artifact:version:classifier"
     // compile "some.group:artifact:version"
@@ -109,7 +115,6 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-}
 
 // Example for how to get properties into the manifest for reading by the runtime..
 jar {
