@@ -1,6 +1,7 @@
 package com.cholitoburitto.simplyequine.entities;
 
 import com.cholitoburitto.simplyequine.init.ModEntityTypes;
+import com.cholitoburitto.simplyequine.util.RegistryHandler;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.passive.AnimalEntity;
@@ -12,17 +13,24 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
-import util.RegistryHandler;
+import software.bernie.geckolib.animation.builder.AnimationBuilder;
+import software.bernie.geckolib.animation.controller.AnimationController;
+import software.bernie.geckolib.animation.controller.EntityAnimationController;
+import software.bernie.geckolib.entity.IAnimatedEntity;
+import software.bernie.geckolib.event.AnimationTestEvent;
+import software.bernie.geckolib.manager.EntityAnimationManager;
 
-public class ThoroughbredEntity extends AnimalEntity {
+public class ThoroughbredEntity extends AnimalEntity implements IAnimatedEntity {
 
     private EatGrassGoal eatGrassGoal;
     private int exampleTimer;
+    private EntityAnimationManager manager = new EntityAnimationManager();
+    private AnimationController controller = new EntityAnimationController(this, "moveController", 20, this::animationPredicate);
 
     public ThoroughbredEntity(EntityType<? extends AnimalEntity> type, World worldIn) {
         super (type, worldIn);
+        registerAnimationControllers();
     }
-
     @Override
     public AgeableEntity createChild(AgeableEntity ageable) {
         ThoroughbredEntity entity = new ThoroughbredEntity(ModEntityTypes.THOROUGHBRED_ENTITY.get(), this.world);
@@ -96,5 +104,21 @@ public class ThoroughbredEntity extends AnimalEntity {
         } else {
             return this.exampleTimer > 0 ? ((float) Math.PI / 5F) : this.rotationPitch * ((float) Math.PI / 180F);
         }
+    }
+    @Override
+    public EntityAnimationManager getAnimationManager() {
+        return manager;
+    }
+    private <E extends ThoroughbredEntity> boolean animationPredicate(AnimationTestEvent<E> event) {
+        if (event.isWalking()) {
+            controller.setAnimation(new AnimationBuilder().addAnimation("simply_equine.animation.walk")
+                    .addAnimation("simply_equine.animation.walk", true));
+            return true;
+        } else {
+            return false;
+        }
+    }
+    private void registerAnimationControllers() {
+        manager.addAnimationController(controller);
     }
 }

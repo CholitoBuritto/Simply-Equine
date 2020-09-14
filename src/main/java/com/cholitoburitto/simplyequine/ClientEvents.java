@@ -7,7 +7,7 @@ import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import util.ModBlocks;
+import com.cholitoburitto.simplyequine.util.ModBlocks;
 
 public class ClientEvents {
     public static void subscribeClientEvents(IEventBus modBus, IEventBus forgeBus) {

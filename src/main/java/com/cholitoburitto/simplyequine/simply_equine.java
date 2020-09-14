@@ -1,5 +1,7 @@
 package com.cholitoburitto.simplyequine;
 
+import com.cholitoburitto.simplyequine.client.entity.model.ThoroughbredEntityModel;
+import com.cholitoburitto.simplyequine.entities.ThoroughbredEntity;
 import com.cholitoburitto.simplyequine.init.ModEntityTypes;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -9,10 +11,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
-import net.minecraftforge.registries.DeferredRegister;
-import util.GroomingTools;
-import util.ModBlocks;
-import util.RegistryHandler;
+import com.cholitoburitto.simplyequine.util.GroomingTools;
+import com.cholitoburitto.simplyequine.util.ModBlocks;
+import com.cholitoburitto.simplyequine.util.RegistryHandler;
 
 
 /**
@@ -66,6 +67,7 @@ public class simply_equine {
 
                 getModEventBus());
         MinecraftForge.EVENT_BUS.register(GroomingTools .class);
+
 
 
         // invoked by forge due to @Mod
