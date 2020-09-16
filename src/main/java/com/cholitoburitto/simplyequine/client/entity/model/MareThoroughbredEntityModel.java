@@ -1,11 +1,11 @@
 package com.cholitoburitto.simplyequine.client.entity.model;
 
-import com.cholitoburitto.simplyequine.entities.ThoroughbredEntity;
+import com.cholitoburitto.simplyequine.entities.MareThoroughbredEntity;
 import net.minecraft.util.ResourceLocation;
 import software.bernie.geckolib.animation.model.AnimatedEntityModel;
 import software.bernie.geckolib.animation.render.AnimatedModelRenderer;
 
-public class ThoroughbredEntityModel extends AnimatedEntityModel<ThoroughbredEntity> {
+public class MareThoroughbredEntityModel extends AnimatedEntityModel<MareThoroughbredEntity> {
 
     private final AnimatedModelRenderer body;
     private final AnimatedModelRenderer main;
@@ -35,7 +35,7 @@ public class ThoroughbredEntityModel extends AnimatedEntityModel<ThoroughbredEnt
     private final AnimatedModelRenderer hair;
     private final AnimatedModelRenderer dock;
 
-    public ThoroughbredEntityModel()
+    public MareThoroughbredEntityModel()
     {
         textureWidth = 128;
         textureHeight = 128;

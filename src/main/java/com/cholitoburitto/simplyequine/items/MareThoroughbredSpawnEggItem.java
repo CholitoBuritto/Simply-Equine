@@ -19,20 +19,20 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-public class ThoroughbredSpawnEggItem extends SpawnEggItem {
+public class MareThoroughbredSpawnEggItem extends SpawnEggItem {
 
-    protected static final List<ThoroughbredSpawnEggItem> UNADDED_EGGS = new ArrayList<ThoroughbredSpawnEggItem>();
+    protected static final List<MareThoroughbredSpawnEggItem> UNADDED_EGGS = new ArrayList<MareThoroughbredSpawnEggItem>();
     private final Lazy<? extends EntityType<?>> entityTypeSupplier;
 
-    public ThoroughbredSpawnEggItem(final NonNullSupplier<? extends EntityType<?>> entityTypeSupplier, final int primaryColour,
-                                    final int secondaryColour, final Item.Properties properties) {
+    public MareThoroughbredSpawnEggItem(final NonNullSupplier<? extends EntityType<?>> entityTypeSupplier, final int primaryColour,
+                                        final int secondaryColour, final Item.Properties properties) {
         super(null, primaryColour, secondaryColour, properties);
         this.entityTypeSupplier = Lazy.of(entityTypeSupplier::get);
         UNADDED_EGGS.add(this);
     }
 
-    public ThoroughbredSpawnEggItem(final RegistryObject<? extends EntityType<?>> entityTypeSupplier, final int primaryColour,
-                                    final int secondaryColour, final Item.Properties properties) {
+    public MareThoroughbredSpawnEggItem(final RegistryObject<? extends EntityType<?>> entityTypeSupplier, final int primaryColour,
+                                        final int secondaryColour, final Item.Properties properties) {
         super(null, primaryColour, secondaryColour, properties);
         this.entityTypeSupplier = Lazy.of(entityTypeSupplier::get);
         UNADDED_EGGS.add(this);
