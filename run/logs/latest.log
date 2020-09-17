@@ -1,26 +1,26 @@
-[13Sep2020 19:24:48.299] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Cheyenne\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[13Sep2020 19:24:48.311] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_212 by Oracle Corporation
-[13Sep2020 19:24:49.213] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[13Sep2020 19:24:52.896] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Cheyenne\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[13Sep2020 19:24:58.094] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[13Sep2020 19:25:23.541] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[13Sep2020 19:25:24.710] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
-[13Sep2020 19:25:24.710] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
-[13Sep2020 19:25:25.001] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity stingraytestentity
-[13Sep2020 19:25:25.001] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ascendedlegfishentity
-[13Sep2020 19:25:25.002] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity tigrisentity
-[13Sep2020 19:25:25.002] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lightcrystalentity
-[13Sep2020 19:25:25.002] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity brownentity
-[13Sep2020 19:25:25.002] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity easingdemoentity
-[13Sep2020 19:25:25.002] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity robotentity
-[13Sep2020 19:25:25.002] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity entitycolorfulpig
-[13Sep2020 19:25:25.005] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity simply_equine:thoroughbred_entity
-[13Sep2020 19:25:35.368] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[13Sep2020 19:25:35.514] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[13Sep2020 19:25:35.853] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[13Sep2020 19:25:36.562] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
-[13Sep2020 19:25:36.562] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simply_equine] Starting version check at http://myurl.me/
-[13Sep2020 19:25:36.951] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[16Sep2020 07:21:44.759] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Cheyenne\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[16Sep2020 07:21:44.775] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_212 by Oracle Corporation
+[16Sep2020 07:21:45.869] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[16Sep2020 07:21:49.478] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Cheyenne\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[16Sep2020 07:21:53.978] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[16Sep2020 07:22:19.646] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[16Sep2020 07:22:21.279] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[16Sep2020 07:22:21.279] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[16Sep2020 07:22:21.558] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity stingraytestentity
+[16Sep2020 07:22:21.559] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ascendedlegfishentity
+[16Sep2020 07:22:21.559] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity tigrisentity
+[16Sep2020 07:22:21.559] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lightcrystalentity
+[16Sep2020 07:22:21.559] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity brownentity
+[16Sep2020 07:22:21.559] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity easingdemoentity
+[16Sep2020 07:22:21.559] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity robotentity
+[16Sep2020 07:22:21.560] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity entitycolorfulpig
+[16Sep2020 07:22:21.562] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity simply_equine:mare_thoroughbred_entity
+[16Sep2020 07:22:32.604] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[16Sep2020 07:22:32.791] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[16Sep2020 07:22:33.414] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16Sep2020 07:22:34.166] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[16Sep2020 07:22:34.166] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simply_equine] Starting version check at http://myurl.me/
+[16Sep2020 07:22:34.625] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_212]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_212]
@@ -42,64 +42,74 @@ Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL:
 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_212]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
 	... 3 more
-[13Sep2020 19:25:45.374] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[13Sep2020 19:25:45.376] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[13Sep2020 19:25:45.713] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[13Sep2020 19:25:45.786] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
-[13Sep2020 19:25:45.791] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[13Sep2020 19:25:45.793] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[13Sep2020 19:25:45.794] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[13Sep2020 19:25:45.796] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[13Sep2020 19:25:45.797] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13Sep2020 19:25:48.117] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[13Sep2020 19:25:48.120] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[13Sep2020 19:25:48.121] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13Sep2020 19:25:49.247] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[13Sep2020 19:26:28.291] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13Sep2020 19:26:28.294] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Sep2020 19:26:28.297] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Sep2020 19:26:28.300] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13Sep2020 19:26:28.302] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Sep2020 19:26:28.862] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
-[13Sep2020 19:26:28.863] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[13Sep2020 19:26:29.813] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType: Object did not get ID it asked for. Name: geckolib:stingraytestentity Expected: 103 Got: 105
-[13Sep2020 19:26:29.813] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType: Object did not get ID it asked for. Name: geckolib:tigrisentity Expected: 105 Got: 106
-[13Sep2020 19:26:29.814] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType: Object did not get ID it asked for. Name: geckolib:lightcrystalentity Expected: 106 Got: 111
-[13Sep2020 19:26:30.200] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: geckolib-forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1.jar, main, Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
-[13Sep2020 19:26:32.637] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[13Sep2020 19:26:37.357] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[13Sep2020 19:26:39.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Sep2020 19:26:41.502] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13Sep2020 19:26:41.502] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13Sep2020 19:26:41.503] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13Sep2020 19:26:41.504] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13Sep2020 19:26:41.582] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13Sep2020 19:26:42.117] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
-[13Sep2020 19:26:42.717] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3166 ms
-[13Sep2020 19:26:43.896] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Sep2020 19:26:43.902] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Sep2020 19:26:43.919] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[13Sep2020 19:26:45.649] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
-[13Sep2020 19:26:48.072] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[13Sep2020 19:26:48.346] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@78936ec5
-[13Sep2020 19:26:48.396] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:69bc62f8] logged in with entity id 409 at (-211.8460448365779, 4.0, 185.445227314478)
-[13Sep2020 19:26:48.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[13Sep2020 19:26:49.318] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Sep2020 19:26:49.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test'/minecraft:overworld
-[13Sep2020 19:26:49.746] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 31 advancements
-[13Sep2020 19:27:00.344] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Sep2020 19:27:00.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test'/minecraft:overworld
-[13Sep2020 19:27:38.461] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2020-09-13_19.27.37.png
-[13Sep2020 19:27:40.577] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2020-09-13_19.27.39.png
-[13Sep2020 19:27:41.294] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Sep2020 19:27:41.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test'/minecraft:overworld
-[13Sep2020 19:27:41.967] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[13Sep2020 19:27:41.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[13Sep2020 19:27:41.993] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[13Sep2020 19:27:42.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Sep2020 19:27:42.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Sep2020 19:27:42.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Sep2020 19:27:42.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test'/minecraft:overworld
-[13Sep2020 19:27:42.294] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test): All chunks are saved
-[13Sep2020 19:27:42.337] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test): All chunks are saved
-[13Sep2020 19:27:43.644] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[16Sep2020 07:22:40.278] [Server-Worker-3/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'simply_equine:mare_thoroughbred_spawn_egg#inventory' referenced from: simply_equine:mare_thoroughbred_spawn_egg#inventory: java.io.FileNotFoundException: simply_equine:models/item/mare_thoroughbred_spawn_egg.json
+[16Sep2020 07:22:43.784] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[16Sep2020 07:22:43.786] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[16Sep2020 07:22:44.481] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[16Sep2020 07:22:44.576] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[16Sep2020 07:22:44.595] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16Sep2020 07:22:44.598] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16Sep2020 07:22:44.601] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16Sep2020 07:22:44.602] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16Sep2020 07:22:44.604] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16Sep2020 07:22:46.555] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[16Sep2020 07:22:46.558] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16Sep2020 07:22:46.559] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16Sep2020 07:22:47.447] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[16Sep2020 07:23:00.957] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16Sep2020 07:23:00.960] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16Sep2020 07:23:00.962] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16Sep2020 07:23:00.964] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16Sep2020 07:23:00.967] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16Sep2020 07:23:01.520] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[16Sep2020 07:23:01.520] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[16Sep2020 07:23:02.219] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	simply_equine:thoroughbred_entity: 103
+
+[16Sep2020 07:23:02.222] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	simply_equine:thoroughbred_spawn_egg: 1116
+
+[16Sep2020 07:23:08.309] [Server thread/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[16Sep2020 07:23:08.319] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: simply_equine:mare_thoroughbred_spawn_egg Expected: 1116 Got: 1117
+[16Sep2020 07:23:08.320] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry EntityType: Object did not get ID it asked for. Name: simply_equine:mare_thoroughbred_entity Expected: 111 Got: 112
+[16Sep2020 07:23:09.482] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: geckolib-forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1.jar, main, Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
+[16Sep2020 07:23:11.175] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[16Sep2020 07:23:15.494] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[16Sep2020 07:23:16.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[16Sep2020 07:23:18.920] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[16Sep2020 07:23:18.921] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[16Sep2020 07:23:18.921] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[16Sep2020 07:23:18.922] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[16Sep2020 07:23:18.922] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[16Sep2020 07:23:19.184] [Server thread/WARN] [net.minecraft.entity.EntityType/]: Skipping Entity with id simply_equine:thoroughbred_entity
+[16Sep2020 07:23:19.186] [Server thread/WARN] [net.minecraft.entity.EntityType/]: Skipping Entity with id simply_equine:thoroughbred_entity
+[16Sep2020 07:23:19.537] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
+[16Sep2020 07:23:20.070] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3364 ms
+[16Sep2020 07:23:20.903] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16Sep2020 07:23:20.907] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16Sep2020 07:23:20.913] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[16Sep2020 07:23:23.605] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[16Sep2020 07:23:23.706] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\Test\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what simply_equine:thoroughbred_entity is
+[16Sep2020 07:23:23.707] [Server thread/WARN] [net.minecraft.stats.ServerStatisticsManager/]: Invalid statistic in .\saves\Test\stats\380df991-f603-344c-a090-369bad2a924a.json: Don't know what simply_equine:thoroughbred_spawn_egg is
+[16Sep2020 07:23:23.808] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1bc7b2f5
+[16Sep2020 07:23:23.866] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:574122d9] logged in with entity id 383 at (-192.6882009360121, 5.5, 198.4051751027016)
+[16Sep2020 07:23:24.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[16Sep2020 07:23:25.248] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[16Sep2020 07:23:25.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test'/minecraft:overworld
+[16Sep2020 07:23:25.576] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 45 advancements
+[16Sep2020 07:23:35.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Summoned new entity.simply_equine.mare_thoroughbred_entity]
+[16Sep2020 07:23:35.884] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Summoned new entity.simply_equine.mare_thoroughbred_entity
+[16Sep2020 07:23:38.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Summoned new entity.simply_equine.mare_thoroughbred_entity]
+[16Sep2020 07:23:38.537] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Summoned new entity.simply_equine.mare_thoroughbred_entity
+[16Sep2020 07:25:09.872] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[16Sep2020 07:25:09.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test'/minecraft:overworld
+[16Sep2020 07:25:10.446] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[16Sep2020 07:25:10.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[16Sep2020 07:25:10.460] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[16Sep2020 07:25:10.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[16Sep2020 07:25:10.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[16Sep2020 07:25:10.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[16Sep2020 07:25:10.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test'/minecraft:overworld
+[16Sep2020 07:25:10.626] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test): All chunks are saved
+[16Sep2020 07:25:10.651] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test): All chunks are saved
+[16Sep2020 07:25:13.771] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
