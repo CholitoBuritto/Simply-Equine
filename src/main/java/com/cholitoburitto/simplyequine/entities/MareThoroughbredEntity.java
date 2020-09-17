@@ -15,8 +15,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.network.PacketBuffer;
 import net.minecraft.util.Hand;
 import net.minecraft.world.World;;
+import net.minecraftforge.fml.common.registry.IEntityAdditionalSpawnData;
 import software.bernie.geckolib.animation.builder.AnimationBuilder;
 import software.bernie.geckolib.animation.controller.AnimationController;
 import software.bernie.geckolib.animation.controller.EntityAnimationController;
@@ -24,16 +27,31 @@ import software.bernie.geckolib.entity.IAnimatedEntity;
 import software.bernie.geckolib.event.AnimationTestEvent;
 import software.bernie.geckolib.manager.EntityAnimationManager;
 
-public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnimatedEntity {
+public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnimatedEntity, IEntityAdditionalSpawnData {
 
     private EatGrassGoal eatGrassGoal;
     private int exampleTimer;
     private EntityAnimationManager manager = new EntityAnimationManager();
     private AnimationController controller = new EntityAnimationController(this, "moveController", 20, this::animationPredicate);
+    private int textureType = 0;
 
+    /**
+     * Generates a random texture type
+     */
     public MareThoroughbredEntity(EntityType<? extends AbstractHorseEntity> type, World worldIn) {
         super(type, worldIn);
         registerAnimationControllers();
+        //let's say we have 5 types of texture
+        setTextureType(rand.nextInt(5));
+    }
+
+    /**
+     * Set texture type for this entity
+     * @param textureType texture type
+     */
+    public MareThoroughbredEntity(EntityType<? extends AbstractHorseEntity> type, World worldIn, int textureType) {
+        super(type, worldIn);
+        setTextureType(textureType);
     }
 
     @Override
@@ -162,6 +180,42 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
         manager.addAnimationController(controller);
     }
 
+    public void setTextureType(int textureType)
+    {
+        //making sure we have the texture type (betwee 0 and 4 inclusive)
+        textureType = Math.min(Math.max(0, textureType), 4);
+        this.textureType = textureType;
+    }
 
+    public int getTextureType()
+    {
+        return textureType;
+    }
+
+    @Override
+    public void writeAdditional(CompoundNBT compound)
+    {
+        super.writeAdditional(compound);
+        compound.putInt("texturetype", getTextureType());
+    }
+
+    @Override
+    public void readAdditional(CompoundNBT compound)
+    {
+        super.readAdditional(compound);
+        setTextureType(compound.getInt("texturetype"));
+    }
+
+    @Override
+    public void writeSpawnData(PacketBuffer buffer)
+    {
+        buffer.writeInt(getTextureType());
+    }
+
+    @Override
+    public void readSpawnData(PacketBuffer additionalData)
+    {
+        setTextureType(additionalData.readInt());
+    }
 }
 
