@@ -1,5 +1,6 @@
 package com.cholitoburitto.simplyequine.entities;
 
+import com.cholitoburitto.simplyequine.client.entity.render.MareThoroughbredEntityRender;
 import com.cholitoburitto.simplyequine.init.ModEntityTypes;
 import com.cholitoburitto.simplyequine.util.RegistryHandler;
 import net.minecraft.entity.AgeableEntity;
@@ -41,8 +42,7 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
     public MareThoroughbredEntity(EntityType<? extends AbstractHorseEntity> type, World worldIn) {
         super(type, worldIn);
         registerAnimationControllers();
-        //let's say we have 5 types of texture
-        setTextureType(rand.nextInt(5));
+        setTextureType(rand.nextInt(MareThoroughbredEntityRender.TextureTypes.totalTextureTypesCount));
     }
 
     /**
@@ -182,8 +182,7 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
 
     public void setTextureType(int textureType)
     {
-        //making sure we have the texture type (betwee 0 and 4 inclusive)
-        textureType = Math.min(Math.max(0, textureType), 4);
+        textureType = Math.min(Math.max(0, textureType), MareThoroughbredEntityRender.TextureTypes.totalTextureTypesCount - 1);
         this.textureType = textureType;
     }
 
