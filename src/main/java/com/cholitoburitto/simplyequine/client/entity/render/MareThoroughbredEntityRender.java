@@ -3,19 +3,53 @@ package com.cholitoburitto.simplyequine.client.entity.render;
 import com.cholitoburitto.simplyequine.client.entity.model.MareThoroughbredEntityModel;
 import com.cholitoburitto.simplyequine.entities.MareThoroughbredEntity;
 import com.cholitoburitto.simplyequine.simply_equine;
+import com.mojang.blaze3d.matrix.MatrixStack;
+import com.mojang.blaze3d.vertex.IVertexBuilder;
+import net.minecraft.client.renderer.IRenderTypeBuffer;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.entity.EntityRendererManager;
+import net.minecraft.client.renderer.entity.IEntityRenderer;
 import net.minecraft.client.renderer.entity.MobRenderer;
+import net.minecraft.client.renderer.entity.PigRenderer;
+import net.minecraft.client.renderer.entity.layers.LayerRenderer;
+import net.minecraft.client.renderer.entity.model.EntityModel;
+import net.minecraft.client.renderer.entity.model.PigModel;
+import net.minecraft.client.renderer.texture.OverlayTexture;
+import net.minecraft.entity.IRangedAttackMob;
+import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.passive.PigEntity;
 import net.minecraft.util.ResourceLocation;
 
 public class MareThoroughbredEntityRender extends MobRenderer<MareThoroughbredEntity, MareThoroughbredEntityModel> {
 
     public MareThoroughbredEntityRender(EntityRendererManager renderManagerIn) {
         super(renderManagerIn, new MareThoroughbredEntityModel(), 0.5f);
+        addLayer(new MareThoroughbredBlazeLayer(this));
     }
 
     @Override
     public ResourceLocation getEntityTexture(MareThoroughbredEntity entity) {
         return TextureTypes.getTextureLocation(entity.getTextureType());
+    }
+
+    static class MareThoroughbredBlazeLayer extends LayerRenderer<MareThoroughbredEntity, MareThoroughbredEntityModel> {
+        public static final ResourceLocation BLAZE_TEXTURE = new ResourceLocation(simply_equine.MOD_ID, "textures/entity/mare_blaze");
+        private final MareThoroughbredEntityModel model = new MareThoroughbredEntityModel();
+
+        public MareThoroughbredBlazeLayer(IEntityRenderer<MareThoroughbredEntity, MareThoroughbredEntityModel> entityRendererIn)
+        {
+            super(entityRendererIn);
+        }
+
+        @Override
+        public void render(MatrixStack matrixStackIn, IRenderTypeBuffer bufferIn, int packedLightIn, MareThoroughbredEntity entitylivingbaseIn, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch)
+        {
+            getEntityModel().copyModelAttributesTo(model);
+            model.setLivingAnimations(entitylivingbaseIn, limbSwing, limbSwingAmount, partialTicks);
+            model.setRotationAngles(entitylivingbaseIn, limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch);
+            IVertexBuilder ivertexbuilder = bufferIn.getBuffer(RenderType.getEntityCutoutNoCull(BLAZE_TEXTURE));
+            model.render(matrixStackIn, ivertexbuilder, packedLightIn, OverlayTexture.NO_OVERLAY, 1.0F, 1.0F, 1.0F, 1.0F);
+        }
     }
 
     public enum TextureTypes {
