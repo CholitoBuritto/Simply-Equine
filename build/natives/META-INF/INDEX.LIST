@@ -1,10 +1,13 @@
 JarIndex-Version: 1.0
 
-lwjgl-natives-linux.jar
+lwjgl-natives-windows.jar
 META-INF
 META-INF/versions
 META-INF/versions/9
-liblwjgl.so
-liblwjgl.so.git
-liblwjgl.so.sha1
+lwjgl.dll
+lwjgl.dll.git
+lwjgl.dll.sha1
+lwjgl32.dll
+lwjgl32.dll.git
+lwjgl32.dll.sha1
 
