@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x",
+    "x",
+    "x"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:brown_wool"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:brown_rosette",
+    "count": 1
+  }
+}

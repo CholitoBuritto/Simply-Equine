@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "ss ",
+    "   "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "simply_equine:stall_bars_1"
+    },
+    "s":
+    {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:oak_stall_door",
+    "count": 2
+  }
+}

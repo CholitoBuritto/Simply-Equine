@@ -1,0 +1,6 @@
+{
+    "parent": "simply_equine:block/bars_cap_alt",
+    "textures": {
+        "texture": "simply_equine:block/stall_bars_1"
+    }
+}

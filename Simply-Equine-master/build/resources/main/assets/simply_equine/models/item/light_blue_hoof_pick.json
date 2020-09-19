@@ -1,0 +1,8 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "simply_equine:item/light_blue_hoof_pick"
+	}
+}
+
+

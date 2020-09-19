@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:gray_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:gray_smooth_stall_mat",
+    "count": 9
+  }
+}

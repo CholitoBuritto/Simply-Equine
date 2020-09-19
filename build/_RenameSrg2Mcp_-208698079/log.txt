@@ -1,0 +1,12 @@
+Args: "--task", "SRG_TO_MCP", "--input", "/home/isabella/.gradle/caches/modules-2/files-2.1/com.github.bernie-g/geckolib/forge-1.15.2-geckolib-2.0.0-beta.7/a470b437fbcdefd8c3e7821eaecfa620599718d2/geckolib-forge-1.15.2-geckolib-2.0.0-beta.7.jar", "--output", "/home/isabella/.gradle/caches/forge_gradle/deobf_dependencies/com/github/bernie-g/geckolib/forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1/geckolib-forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1.jar", "--mcp", "/home/isabella/.gradle/caches/forge_gradle/maven_downloader/de/oceanlabs/mcp/mcp_snapshot/20200514-1.15.1/mcp_snapshot-20200514-1.15.1.zip", "--strip-signatures"
+Classpath: /home/isabella/.gradle/caches/forge_gradle/maven_downloader/net/minecraftforge/installertools/1.1.10/installertools-1.1.10-fatjar.jar
+WorkDir: /home/isabella/untitled folder/Simply-Equine/build/_RenameSrg2Mcp_-208698079
+Main: net.minecraftforge.installertools.ConsoleTool
+====================================
+Task: SRG_TO_MCP
+Input:  /home/isabella/.gradle/caches/modules-2/files-2.1/com.github.bernie-g/geckolib/forge-1.15.2-geckolib-2.0.0-beta.7/a470b437fbcdefd8c3e7821eaecfa620599718d2/geckolib-forge-1.15.2-geckolib-2.0.0-beta.7.jar
+Output: /home/isabella/.gradle/caches/forge_gradle/deobf_dependencies/com/github/bernie-g/geckolib/forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1/geckolib-forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1.jar
+MCP:    /home/isabella/.gradle/caches/forge_gradle/maven_downloader/de/oceanlabs/mcp/mcp_snapshot/20200514-1.15.1/mcp_snapshot-20200514-1.15.1.zip
+Loading MCP Data
+Stripped Manifest of sha digests
+Process complete

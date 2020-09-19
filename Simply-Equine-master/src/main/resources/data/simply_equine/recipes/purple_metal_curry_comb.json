@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    " s "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "s":
+    {
+      "item": "minecraft:purple_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:purple_metal_curry_comb",
+    "count": 1
+  }
+}

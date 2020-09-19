@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "dsx",
+    " x ",
+    "x  "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:leather"
+    },
+    "s":
+    {
+      "item": "minecraft:brown_dye"
+    },
+    "d":
+    {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:light_brown_riding_crop",
+    "count": 1
+  }
+}

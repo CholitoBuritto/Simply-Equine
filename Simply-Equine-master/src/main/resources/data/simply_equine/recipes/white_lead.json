@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "sxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:white_wool"
+    },
+    "s":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:white_lead",
+    "count": 1
+  }
+}

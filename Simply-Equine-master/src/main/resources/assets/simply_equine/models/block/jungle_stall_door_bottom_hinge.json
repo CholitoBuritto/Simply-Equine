@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom_rh",
+    "textures": {
+        "bottom": "simply_equine:block/jungle_stall_door_bottom",
+        "top": "simply_equine:block/jungle_stall_door_top"
+    }
+}

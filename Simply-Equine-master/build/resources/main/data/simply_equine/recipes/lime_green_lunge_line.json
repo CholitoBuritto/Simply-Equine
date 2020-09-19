@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "xxx",
+    "s  "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:lime_wool"
+    },
+    "s":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:lime_green_lunge_line",
+    "count": 1
+  }
+}

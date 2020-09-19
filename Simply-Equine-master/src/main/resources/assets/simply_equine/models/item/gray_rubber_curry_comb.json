@@ -1,0 +1,9 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "simply_equine:item/gray_rubber_curry"
+	}
+}
+
+
+

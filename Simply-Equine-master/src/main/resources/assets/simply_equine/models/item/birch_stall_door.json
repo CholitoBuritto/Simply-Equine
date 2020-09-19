@@ -1,0 +1,7 @@
+  
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "simply_equine:item/birch_stall_door"
+	}
+}

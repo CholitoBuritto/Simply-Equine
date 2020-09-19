@@ -1,5 +1,6 @@
-Args: "--in-jar", "/home/isabella/Simply Equine (Take 4)/build/libs/modid-1.0.jar", "--out-jar", "/home/isabella/Simply Equine (Take 4)/build/reobfJar/output.jar", "--srg-in", "/home/isabella/Simply Equine (Take 4)/build/createMcpToSrg/output.tsrg", "--live"
+Args: "--in-jar", "/home/isabella/untitled folder/Simply-Equine/build/libs/modid-1.0.jar", "--out-jar", "/home/isabella/untitled folder/Simply-Equine/build/reobfJar/output.jar", "--srg-in", "/home/isabella/untitled folder/Simply-Equine/build/createMcpToSrg/output.tsrg", "--live"
 Classpath: /home/isabella/.gradle/caches/forge_gradle/maven_downloader/net/md-5/SpecialSource/1.8.3/SpecialSource-1.8.3-shaded.jar
+Classpath: /home/isabella/.gradle/caches/forge_gradle/deobf_dependencies/com/github/bernie-g/geckolib/forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1/geckolib-forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1.jar
 Classpath: /home/isabella/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
 Classpath: /home/isabella/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-launcher.jar
 Classpath: /home/isabella/.gradle/caches/forge_gradle/minecraft_repo/versions/1.15.2/client-extra.jar
@@ -73,7 +74,7 @@ Classpath: /home/isabella/.gradle/caches/modules-2/files-2.1/net.java.jinput/jin
 Classpath: /home/isabella/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar
 Classpath: /home/isabella/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.2.1/13b015768e0d04849d2794e4c47eb02d01a0de32/plexus-utils-3.2.1.jar
 Classpath: /home/isabella/.gradle/caches/modules-2/files-2.1/org.jline/jline-terminal/3.12.1/c777448314e050d980a6b697c140f3bfe9eb7416/jline-terminal-3.12.1.jar
-WorkDir: /home/isabella/Simply Equine (Take 4)/build/reobfJar
+WorkDir: /home/isabella/untitled folder/Simply-Equine/build/reobfJar
 Main: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings

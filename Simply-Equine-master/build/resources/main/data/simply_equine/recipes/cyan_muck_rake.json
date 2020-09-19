@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    " x ",
+    " x ",
+    "sss"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:cyan_concrete"
+    },
+    "s":
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:cyan_muck_rake",
+    "count": 1
+  }
+}

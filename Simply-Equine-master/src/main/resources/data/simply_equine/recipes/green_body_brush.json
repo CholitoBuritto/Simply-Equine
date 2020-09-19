@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "x x",
+    " xs",
+    "xs "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:green_concrete"
+    },
+    "s":
+    {
+      "item": "minecraft:green_wool"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:green_body_brush",
+    "count": 1
+  }
+}

@@ -2,6 +2,7 @@ package util;
 
 import net.minecraft.entity.passive.horse.HorseEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Items;
 import net.minecraft.particles.IParticleData;
 import net.minecraft.particles.ParticleTypes;
 import net.minecraftforge.api.distmarker.Dist;
@@ -14,9 +15,9 @@ import java.util.Random;
 public class GroomingTools {
     @OnlyIn(Dist.CLIENT)
     @SubscribeEvent
-    public static void groomingTools(PlayerInteractEvent.EntityInteract event) {
+    public static void GroomingTools(PlayerInteractEvent.EntityInteract event) {
         PlayerEntity player = event.getPlayer();
-        if (player.getHeldItemMainhand().getItem() == RegistryHandler.BLACK_RUBBER_CURRY_COMB.get()) {
+        if (player.getHeldItemMainhand().getItem() == Items.BREAD.getItem()) {
             boolean p_110216_1_ = true;
             IParticleData iparticledata = p_110216_1_ ? ParticleTypes.HEART : ParticleTypes.SMOKE;
             Random rand = new Random();
