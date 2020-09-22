@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "sponges",
   "ingredients": [
     {
       "item": "minecraft:water_bucket"

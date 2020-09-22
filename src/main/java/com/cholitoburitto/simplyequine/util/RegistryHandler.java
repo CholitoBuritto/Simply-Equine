@@ -2,6 +2,7 @@ package com.cholitoburitto.simplyequine.util;
 
 import com.cholitoburitto.simplyequine.init.ModEntityTypes;
 import com.cholitoburitto.simplyequine.items.MareThoroughbredSpawnEggItem;
+import com.cholitoburitto.simplyequine.items.StallionThoroughbredSpawnEggItem;
 import com.cholitoburitto.simplyequine.simply_equine;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -291,6 +292,8 @@ public class RegistryHandler {
 
     //spawn eggs
     public static final RegistryObject<MareThoroughbredSpawnEggItem> MARE_THOROUGHBRED_SPAWN_EGG = ITEMS.register("mare_thoroughbred_spawn_egg", () -> new MareThoroughbredSpawnEggItem(ModEntityTypes.MARE_THOROUGHBRED_ENTITY, 0x000000, 0x5B3200, new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_ITEMS)));
+    public static final RegistryObject<StallionThoroughbredSpawnEggItem> STALLION_THOROUGHBRED_SPAWN_EGG = ITEMS.register("stallion_thoroughbred_spawn_egg", () -> new StallionThoroughbredSpawnEggItem(ModEntityTypes.STALLION_THOROUGHBRED_ENTITY, 0x000000, 0x5B3200, new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_ITEMS)));
+
 }
 
 

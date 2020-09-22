@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "simply_equine:acacia_stall_door",
+    "simply_equine:birch_stall_door",
+    "simply_equine:dark_oak_stall_door",
+    "simply_equine:jungle_stall_door",
+    "simply_equine:oak_stall_door",
+    "simply_equine:spruce_stall_door"
+  ]
+}

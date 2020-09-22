@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "simply_equine:blue_rosette",
+    "simply_equine:brown_rosette",
+    "simply_equine:champion_rosette",
+    "simply_equine:gray_rosette",
+    "simply_equine:green_rosette",
+    "simply_equine:light_blue_rosette",
+    "simply_equine:pink_rosette",
+    "simply_equine:purple_rosette",
+    "simply_equine:red_rosette",
+    "simply_equine:reserved_champion_rosette",
+    "simply_equine:white_rosette",
+    "simply_equine:yellow_rosette"
+  ]
+}
