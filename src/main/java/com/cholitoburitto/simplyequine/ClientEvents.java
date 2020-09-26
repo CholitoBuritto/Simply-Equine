@@ -1,6 +1,7 @@
 package com.cholitoburitto.simplyequine;
 
 import com.cholitoburitto.simplyequine.client.entity.render.MareThoroughbredEntityRender;
+import com.cholitoburitto.simplyequine.client.entity.render.StallionThoroughbredEntityRender;
 import com.cholitoburitto.simplyequine.init.ModEntityTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -26,7 +27,7 @@ public class ClientEvents {
         RenderTypeLookup.setRenderLayer(ModBlocks.JUNGLE_STALL_DOOR.get(), RenderType.getCutout());
 
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.MARE_THOROUGHBRED_ENTITY.get(), MareThoroughbredEntityRender::new);
-
+        RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.STALLION_THOROUGHBRED_ENTITY.get(), StallionThoroughbredEntityRender::new);
     }
 
 
