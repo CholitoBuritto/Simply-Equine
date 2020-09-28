@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "jumpstandard",
+  "pattern":
+  [
+    "w  "
+    "wdw"
+    "w w"
+  ],
+  "key":
+  {
+    "w":
+    {
+      "item": "minecraft:white_concrete"
+    },
+    "d":
+    {
+      "item": "minecraft:gray_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:gray_jump_standard",
+    "count": 1
+  }
+}

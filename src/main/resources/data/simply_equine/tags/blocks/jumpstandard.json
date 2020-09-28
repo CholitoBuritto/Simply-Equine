@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "simply_equine:black_jump_standard",
+    "simply_equine:blue_jump_standard",
+    "simply_equine:brown_jump_standard",
+    "simply_equine:cyan_jump_standard",
+    "simply_equine:gray_jump_standard",
+    "simply_equine:green_jump_standard",
+    "simply_equine:light_blue_jump_standard",
+    "simply_equine:light_gray_jump_standard",
+    "simply_equine:lime_green_jump_standard",
+    "simply_equine:magenta_jump_standard",
+    "simply_equine:orange_jump_standard",
+    "simply_equine:pink_jump_standard",
+    "simply_equine:purple_jump_standard",
+    "simply_equine:red_jump_standard",
+    "simply_equine:white_jump_standard",
+    "simply_equine:yellow_jump_standard"
+  ]
+}

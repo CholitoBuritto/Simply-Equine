@@ -1,6 +1,7 @@
 package com.cholitoburitto.simplyequine.entities;
 
 import com.cholitoburitto.simplyequine.init.ModEntityTypes;
+import com.cholitoburitto.simplyequine.simply_equine;
 import com.cholitoburitto.simplyequine.util.RegistryHandler;
 import net.minecraft.entity.AgeableEntity;
 import net.minecraft.entity.EntityType;
@@ -19,6 +20,8 @@ import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.util.Hand;
 import net.minecraft.world.World;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.fml.common.registry.IEntityAdditionalSpawnData;
 import software.bernie.geckolib.animation.builder.AnimationBuilder;
 import software.bernie.geckolib.animation.controller.AnimationController;
@@ -26,35 +29,58 @@ import software.bernie.geckolib.animation.controller.EntityAnimationController;
 import software.bernie.geckolib.entity.IAnimatedEntity;
 import software.bernie.geckolib.event.AnimationTestEvent;
 import software.bernie.geckolib.manager.EntityAnimationManager;
+import javax.annotation.Nullable;
+import java.sql.Ref;
 
 
-    public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnimatedEntity, IEntityAdditionalSpawnData {
+public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnimatedEntity, IEntityAdditionalSpawnData {
+        private static final String[] MARE_TEXTURES = new String[]{"textures/entity/mare_thoroughbred/mare_thoroughbred_black.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_brown.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_chestnut.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_redchestnut.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_white.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_bay.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_dapple_rose_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_fleabitten_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_light_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_palomino.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_roan.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_rose_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_steel_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_white_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_blue_roan.png"};
+        private static final String[] MARE_FACE_MARKING_TEXTURES = new String[]{null, "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_blaze.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_strip.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_star.png"};
+        private String texturePrefix;
+        private final String[] mareTexturesArray = new String[2];
 
         private EatGrassGoal eatGrassGoal;
         private int exampleTimer;
         private EntityAnimationManager manager = new EntityAnimationManager();
         private AnimationController controller = new EntityAnimationController(this, "moveController", 20, this::animationPredicate);
-        private int textureType = 0;
 
-        /**
-         * Generates a random texture type
-         */
         public MareThoroughbredEntity(EntityType<? extends AbstractHorseEntity> type, World worldIn) {
             super(type, worldIn);
             registerAnimationControllers();
-            //let's say we have 5 types of texture
-            setTextureType(rand.nextInt(16));
         }
 
-        /**
-         * Set texture type for this entity
-         *
-         * @param textureType texture type
-         */
-        public MareThoroughbredEntity(EntityType<? extends AbstractHorseEntity> type, World worldIn, int textureType) {
-            super(type, worldIn);
-            setTextureType(textureType);
+        @Override
+        public void writeAdditional(CompoundNBT compound) {
+            super.writeAdditional(compound);
         }
+
+        @Override
+        public void readAdditional(CompoundNBT compound) {
+            super.readAdditional(compound);
+        }
+
+        @OnlyIn(Dist.CLIENT)
+        private void setMareTexturePaths() {
+            this.mareTexturesArray[0] = simply_equine.MOD_ID + ":textures/entity/mare_thoroughbred/mare_thoroughbred_black.png";
+            this.mareTexturesArray[1] = simply_equine.MOD_ID + ":textures/entity/mare_thoroughbred_markings/mare_thoroughbred_blaze.png";
+            this.texturePrefix = "mare/" + "textures/entity/mare_thoroughbred"  + "textures/entity/mare_thoroughbred_markings";
+        }
+
+    public String getMareTexture() {
+        if (this.texturePrefix == null) {
+            this.setMareTexturePaths();
+        }
+
+        return this.texturePrefix;
+    }
+
+    public String[] getVariantTexturePaths() {
+        if (this.texturePrefix == null) {
+            this.setMareTexturePaths();
+        }
+
+        return this.mareTexturesArray;
+    }
 
         @Override
         protected void registerGoals() {
@@ -144,7 +170,6 @@ import software.bernie.geckolib.manager.EntityAnimationManager;
                 }
             }
         }
-//canberiden
 
         @Override
         public boolean canMateWith(AnimalEntity otherAnimal) {
@@ -184,37 +209,14 @@ import software.bernie.geckolib.manager.EntityAnimationManager;
             manager.addAnimationController(controller);
         }
 
-        public void setTextureType(int textureType) {
-            //change to # of textures
-            textureType = Math.min(Math.max(0, textureType), 16);
-            this.textureType = textureType;
-        }
-
-        public int getTextureType() {
-            return textureType;
-        }
-
-        @Override
-        public void writeAdditional(CompoundNBT compound) {
-            super.writeAdditional(compound);
-            compound.putInt("texturetype", getTextureType());
-        }
-
-        @Override
-        public void readAdditional(CompoundNBT compound) {
-            super.readAdditional(compound);
-            setTextureType(compound.getInt("texturetype"));
-        }
-
-        @Override
-        public void writeSpawnData(PacketBuffer buffer) {
-            buffer.writeInt(getTextureType());
-        }
-
-        @Override
-        public void readSpawnData(PacketBuffer additionalData) {
-            setTextureType(additionalData.readInt());
-        }
+    @Override
+    public void writeSpawnData(PacketBuffer buffer) {
 
     }
+
+    @Override
+    public void readSpawnData(PacketBuffer additionalData) {
+
+    }
+}
 

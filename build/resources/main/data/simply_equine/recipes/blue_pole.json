@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "poles",
+  "pattern":
+  [
+    "wdw"
+  ],
+  "key":
+  {
+    "w":
+    {
+      "item": "minecraft:white_concrete"
+    },
+    "d":
+    {
+      "item": "minecraft:blue_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:blue_pole",
+    "count": 1
+  }
+}

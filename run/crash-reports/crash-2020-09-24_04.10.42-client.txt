@@ -1,0 +1,162 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 9/24/20 4:10 AM
+Description: Registering texture
+
+net.minecraft.util.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:[textures/entity/mare_thoroughbred/mare_thoroughbred_black.png, textures/entity/mare_thoroughbred/mare_thoroughbred_brown.png, textures/entity/mare_thoroughbred/mare_thoroughbred_gray.png, textures/entity/mare_thoroughbred/mare_thoroughbred_chestnut.png, textures/entity/mare_thoroughbred/mare_thoroughbred_redchestnut.png, textures/entity/mare_thoroughbred/mare_thoroughbred_white.png, textures/entity/mare_thoroughbred/mare_thoroughbred_bay.png, textures/entity/mare_thoroughbred/mare_thoroughbred_dapple_rose_gray.png, textures/entity/mare_thoroughbred/mare_thoroughbred_fleabitten_gray.png, textures/entity/mare_thoroughbred/mare_thoroughbred_light_gray.png, textures/entity/mare_thoroughbred/mare_thoroughbred_palomino.png, textures/entity/mare_thoroughbred/mare_thoroughbred_roan.png, textures/entity/mare_thoroughbred/mare_thoroughbred_rose_gray.png, textures/entity/mare_thoroughbred/mare_thoroughbred_steel_gray.png, textures/entity/mare_thoroughbred/mare_thoroughbred_white_gray.png, textures/entity/mare_thoroughbred/mare_thoroughbred_blue_roan.png]
+	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:30) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:35) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading}
+	at net.minecraft.client.renderer.texture.LayeredTexture.loadTexture(LayeredTexture.java:32) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.texture.TextureManager.func_230183_b_(TextureManager.java:82) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:65) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.cholitoburitto.simplyequine.client.entity.render.MareThoroughbredEntityRender.getEntityTexture(MareThoroughbredEntityRender.java:32) ~[main/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at com.cholitoburitto.simplyequine.client.entity.render.MareThoroughbredEntityRender.getEntityTexture(MareThoroughbredEntityRender.java:17) ~[main/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.LivingRenderer.func_230042_a_(LivingRenderer.java:134) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.LivingRenderer.render(LivingRenderer.java:114) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.MobRenderer.render(MobRenderer.java:40) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.MobRenderer.render(MobRenderer.java:20) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.entity.EntityRendererManager.renderEntityStatic(EntityRendererManager.java:246) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.WorldRenderer.renderEntity(WorldRenderer.java:1116) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.WorldRenderer.updateCameraAndRender(WorldRenderer.java:970) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.renderWorld(GameRenderer.java:612) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.updateCameraAndRender(GameRenderer.java:434) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:961) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:558) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.1.2.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.1.2.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:30)
+	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:35)
+	at net.minecraft.client.renderer.texture.LayeredTexture.loadTexture(LayeredTexture.java:32)
+
+-- Resource location being registered --
+Details:
+	Resource location: minecraft:mare/textures/entity/mare_thoroughbredtextures/entity/mare_thoroughbred_markings
+	Texture object class: net.minecraft.client.renderer.texture.LayeredTexture
+Stacktrace:
+	at net.minecraft.client.renderer.texture.TextureManager.func_230183_b_(TextureManager.java:82)
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:65)
+	at com.cholitoburitto.simplyequine.client.entity.render.MareThoroughbredEntityRender.getEntityTexture(MareThoroughbredEntityRender.java:32)
+	at com.cholitoburitto.simplyequine.client.entity.render.MareThoroughbredEntityRender.getEntityTexture(MareThoroughbredEntityRender.java:17)
+	at net.minecraft.client.renderer.entity.LivingRenderer.func_230042_a_(LivingRenderer.java:134)
+	at net.minecraft.client.renderer.entity.LivingRenderer.render(LivingRenderer.java:114)
+	at net.minecraft.client.renderer.entity.MobRenderer.render(MobRenderer.java:40)
+	at net.minecraft.client.renderer.entity.MobRenderer.render(MobRenderer.java:20)
+
+-- Entity being rendered --
+Details:
+	Entity Type: simply_equine:mare_thoroughbred_entity (com.cholitoburitto.simplyequine.entities.MareThoroughbredEntity)
+	Entity ID: 2
+	Entity Name: entity.simply_equine.mare_thoroughbred_entity
+	Entity's Exact location: -121.08, 4.00, 189.05
+	Entity's Block location: World: (-122,4,189), Chunk: (at 6,0,13 in -8,11; contains blocks -128,0,176 to -113,255,191), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Entity's Momentum: 0.00, -0.07, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+
+-- Renderer details --
+Details:
+	Assigned renderer: com.cholitoburitto.simplyequine.client.entity.render.MareThoroughbredEntityRender@6f95654c
+	Location: 1.87,-3.79,-5.54 - World: (1,-4,-6), Chunk: (at 1,-1,10 in 0,-1; contains blocks 0,0,-16 to 15,255,-1), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Rotation: -135.0
+	Delta: 0.5600128
+Stacktrace:
+	at net.minecraft.client.renderer.entity.EntityRendererManager.renderEntityStatic(EntityRendererManager.java:246)
+	at net.minecraft.client.renderer.WorldRenderer.renderEntity(WorldRenderer.java:1116)
+	at net.minecraft.client.renderer.WorldRenderer.updateCameraAndRender(WorldRenderer.java:970)
+	at net.minecraft.client.renderer.GameRenderer.renderWorld(GameRenderer.java:612)
+
+-- Affected level --
+Details:
+	All players: 1 total; [ClientPlayerEntity['Dev'/3, l='MpServer', x=-122.94, y=6.17, z=194.59]]
+	Chunk stats: Client Chunk Cache: 841, 452
+	Level dimension: DimensionType{minecraft:overworld}
+	Level name: MpServer
+	Level seed: 2739207435272172628
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: {}
+	Level spawn location: World: (-128,4,192), Chunk: (at 0,0,0 in -8,12; contains blocks -128,0,192 to -113,255,207), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 7493 game time, 1000 day time
+	Known server brands: 
+	Level was modded: false
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Server brand: forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.world.ClientWorld.fillCrashReport(ClientWorld.java:457)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:1839)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:572)
+	at net.minecraft.client.main.Main.main(Main.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.15.2
+	Minecraft Version ID: 1.15.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_212, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 723486120 bytes (689 MB) / 1703936000 bytes (1625 MB) up to 2844786688 bytes (2713 MB)
+	CPUs: 8
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 5.1.2+70+master.2845bb9
+	ModLauncher launch target: fmluserdevclient
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/eventbus-2.2.0-service.jar eventbus PLUGINSERVICE 
+		/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-launcher.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-launcher.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-2.1.1-shadowed.jar accesstransformer PLUGINSERVICE 
+		/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-launcher.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-launcher.jar runtimedistcleaner PLUGINSERVICE 
+		/forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-launcher.jar fml TRANSFORMATIONSERVICE 
+	FML: 31.2
+	Forge: net.minecraftforge:31.2.0
+	FML Language Providers: 
+		javafml@31.2
+		minecraft@1
+	Mod List: 
+		client-extra.jar Minecraft {minecraft@1.15.2 DONE}
+		forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar Forge {forge@31.2.0 DONE}
+		geckolib-forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1.jar Geckolib {geckolib@2.0.0-beta.7 DONE}
+		main Simply Equine {simply_equine@NONE DONE}
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: GeForce GTX 770M/PCIe/SSE2 GL version 4.5.0 NVIDIA 368.81, NVIDIA Corporation
+	GL Caps: Using framebuffer using OpenGL 3.0
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 8x Intel(R) Core(TM) i7-4700HQ CPU @ 2.40GHz

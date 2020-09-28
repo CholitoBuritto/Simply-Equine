@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mountingblock",
+  "pattern":
+  [
+    "w  "
+    "ww "
+  ],
+  "key":
+  {
+    "w":
+    {
+      "item": "minecraft:lime_green_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:lime_green_mounting_block",
+    "count": 1
+  }
+}

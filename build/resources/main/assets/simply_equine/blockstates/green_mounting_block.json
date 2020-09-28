@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "simply_equine:block/green_mounting_block"},
+    "facing=south": { "model": "simply_equine:block/green_mounting_block", "y": 180},
+    "facing=west":  { "model": "simply_equine:block/green_mounting_block", "y": 270},
+    "facing=east":  { "model": "simply_equine:block/green_mounting_block", "y": 90}
+  }
+}

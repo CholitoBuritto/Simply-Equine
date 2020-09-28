@@ -1,27 +1,27 @@
-[21Sep2020 18:42:20.566] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Cheyenne\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[21Sep2020 18:42:20.581] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_212 by Oracle Corporation
-[21Sep2020 18:42:21.394] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[21Sep2020 18:42:24.409] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Cheyenne\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[21Sep2020 18:42:28.659] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[21Sep2020 18:42:53.222] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[21Sep2020 18:42:54.916] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
-[21Sep2020 18:42:54.916] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
-[21Sep2020 18:42:55.207] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity stingraytestentity
-[21Sep2020 18:42:55.207] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ascendedlegfishentity
-[21Sep2020 18:42:55.207] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity tigrisentity
-[21Sep2020 18:42:55.207] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lightcrystalentity
-[21Sep2020 18:42:55.208] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity brownentity
-[21Sep2020 18:42:55.208] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity easingdemoentity
-[21Sep2020 18:42:55.208] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity robotentity
-[21Sep2020 18:42:55.208] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity entitycolorfulpig
-[21Sep2020 18:42:55.215] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity simply_equine:mare_thoroughbred_entity
-[21Sep2020 18:42:55.218] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity simply_equine:stallon_thoroughbred_entity
-[21Sep2020 18:43:01.708] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[21Sep2020 18:43:01.833] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[21Sep2020 18:43:05.340] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[21Sep2020 18:43:06.207] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
-[21Sep2020 18:43:06.223] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simply_equine] Starting version check at http://myurl.me/
-[21Sep2020 18:43:06.622] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[28Sep2020 14:00:39.100] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.2.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\Cheyenne\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[28Sep2020 14:00:39.100] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_212 by Oracle Corporation
+[28Sep2020 14:00:40.163] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[28Sep2020 14:00:44.179] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Cheyenne\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[28Sep2020 14:00:48.116] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[28Sep2020 14:01:13.283] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[28Sep2020 14:01:15.415] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.0, for MC 1.15.2 with MCP 20200515.085601
+[28Sep2020 14:01:15.416] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.0 Initialized
+[28Sep2020 14:01:15.708] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity stingraytestentity
+[28Sep2020 14:01:15.708] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ascendedlegfishentity
+[28Sep2020 14:01:15.708] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity tigrisentity
+[28Sep2020 14:01:15.709] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lightcrystalentity
+[28Sep2020 14:01:15.709] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity brownentity
+[28Sep2020 14:01:15.709] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity easingdemoentity
+[28Sep2020 14:01:15.709] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity robotentity
+[28Sep2020 14:01:15.709] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity entitycolorfulpig
+[28Sep2020 14:01:15.717] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity simply_equine:mare_thoroughbred_entity
+[28Sep2020 14:01:15.721] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity simply_equine:stallon_thoroughbred_entity
+[28Sep2020 14:01:22.388] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[28Sep2020 14:01:22.646] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[28Sep2020 14:01:23.212] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[28Sep2020 14:01:26.320] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.2.0 Target: null
+[28Sep2020 14:01:26.321] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [simply_equine] Starting version check at http://myurl.me/
+[28Sep2020 14:01:26.694] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_212]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_212]
@@ -43,29 +43,52 @@ Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL:
 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_212]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
 	... 3 more
-[21Sep2020 18:43:09.174] [Server-Worker-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'simply_equine:stallion_thoroughbred_spawn_egg#inventory' referenced from: simply_equine:stallion_thoroughbred_spawn_egg#inventory: java.io.FileNotFoundException: simply_equine:models/item/stallion_thoroughbred_spawn_egg.json
-[21Sep2020 18:43:12.540] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[21Sep2020 18:43:12.543] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[21Sep2020 18:43:12.893] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[21Sep2020 18:43:12.947] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
-[21Sep2020 18:43:12.952] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[21Sep2020 18:43:12.954] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[21Sep2020 18:43:12.956] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[21Sep2020 18:43:12.957] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[21Sep2020 18:43:12.958] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[21Sep2020 18:43:15.189] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[21Sep2020 18:43:15.191] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[21Sep2020 18:43:15.192] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[21Sep2020 18:43:16.401] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[21Sep2020 18:43:23.321] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21Sep2020 18:43:23.324] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21Sep2020 18:43:23.327] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21Sep2020 18:43:23.330] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[21Sep2020 18:43:23.333] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[21Sep2020 18:43:23.768] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
-[21Sep2020 18:43:23.769] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[21Sep2020 18:43:24.835] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: geckolib-forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1.jar, main, Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar
-[21Sep2020 18:43:25.313] [Server-Worker-6/ERROR] [net.minecraft.tags.TagCollection/]: Couldn't read item tag list simply_equine:rosettes from simply_equine:tags/items/rosettes.json in data pack main
+[28Sep2020 14:01:30.935] [Server-Worker-7/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'simply_equine:stallion_thoroughbred_spawn_egg#inventory' referenced from: simply_equine:stallion_thoroughbred_spawn_egg#inventory: java.io.FileNotFoundException: simply_equine:models/item/stallion_thoroughbred_spawn_egg.json
+[28Sep2020 14:01:34.091] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[28Sep2020 14:01:34.093] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[28Sep2020 14:01:34.472] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[28Sep2020 14:01:34.517] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[28Sep2020 14:01:34.521] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[28Sep2020 14:01:34.522] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[28Sep2020 14:01:34.523] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[28Sep2020 14:01:34.524] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[28Sep2020 14:01:34.525] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[28Sep2020 14:01:35.797] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[28Sep2020 14:01:35.800] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[28Sep2020 14:01:35.800] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[28Sep2020 14:01:36.630] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[28Sep2020 14:01:42.581] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Sep2020 14:01:42.583] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Sep2020 14:01:42.586] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Sep2020 14:01:42.588] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Sep2020 14:01:42.591] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Sep2020 14:01:42.996] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[28Sep2020 14:01:42.996] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[28Sep2020 14:01:43.842] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.15.2-31.2.0_mapped_snapshot_20200514-1.15.1-recomp.jar, geckolib-forge-1.15.2-geckolib-2.0.0-beta.7_mapped_snapshot_20200514-1.15.1.jar, main
+[28Sep2020 14:01:44.160] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:black_jump_standard from simply_equine:recipes/black_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:44.175] [Server-Worker-2/ERROR] [net.minecraft.tags.TagCollection/]: Couldn't read item tag list simply_equine:rosettes from simply_equine:tags/items/rosettes.json in data pack main
 com.google.gson.JsonParseException: Unknown value 'simply_equine:reserved_champion_rosette'
 	at net.minecraft.tags.Tag$Builder.lambda$fromJson$0(Tag.java:167) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_212]
@@ -77,67 +100,382 @@ com.google.gson.JsonParseException: Unknown value 'simply_equine:reserved_champi
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
-[21Sep2020 18:43:27.016] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[21Sep2020 18:43:31.224] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[21Sep2020 18:43:32.971] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[21Sep2020 18:43:34.656] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[21Sep2020 18:43:34.657] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[21Sep2020 18:43:34.658] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[21Sep2020 18:43:34.658] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[21Sep2020 18:43:35.006] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
-[21Sep2020 18:43:35.695] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
-[21Sep2020 18:43:36.323] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3350 ms
-[21Sep2020 18:43:37.122] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21Sep2020 18:43:37.127] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21Sep2020 18:43:37.140] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[21Sep2020 18:43:40.234] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[21Sep2020 18:43:40.434] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@402070ce
-[21Sep2020 18:43:40.487] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:aba56713] logged in with entity id 464 at (-193.60770121497063, 9.873726097642011, 218.83715704637146)
-[21Sep2020 18:43:40.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[21Sep2020 18:43:41.190] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2273ms or 45 ticks behind
-[21Sep2020 18:43:41.688] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[21Sep2020 18:43:41.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test'/minecraft:overworld
-[21Sep2020 18:43:42.014] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 45 advancements
-[21Sep2020 18:45:01.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed entity.simply_equine.stallion_thoroughbred_entity]
-[21Sep2020 18:45:01.665] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Killed entity.simply_equine.stallion_thoroughbred_entity
-[21Sep2020 18:45:44.568] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Invalid name or UUID
-[21Sep2020 18:45:44.569] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] /kill entity.simply_equine.stallion_thoroughbred_entity<--[HERE]
-[21Sep2020 18:45:52.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
-[21Sep2020 18:45:52.952] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set the time to 1000
-[21Sep2020 18:47:34.067] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 48 advancements
-[21Sep2020 18:48:04.371] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell out of the world
-[21Sep2020 18:48:04.380] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed Dev]
-[21Sep2020 18:48:04.413] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev fell out of the world
-[21Sep2020 18:48:04.415] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Killed Dev
-[21Sep2020 18:48:40.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Acquire Hardware]
-[21Sep2020 18:48:40.670] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Acquire Hardware]
-[21Sep2020 18:48:40.788] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 78 advancements
-[21Sep2020 18:48:49.202] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 82 advancements
-[21Sep2020 18:49:17.714] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 100 advancements
-[21Sep2020 18:49:18.681] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 103 advancements
-[21Sep2020 18:49:19.730] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 106 advancements
-[21Sep2020 18:49:21.563] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 109 advancements
-[21Sep2020 18:49:22.563] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 112 advancements
-[21Sep2020 18:49:23.780] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 115 advancements
-[21Sep2020 18:49:26.662] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 118 advancements
-[21Sep2020 18:49:27.496] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 121 advancements
-[21Sep2020 18:49:28.412] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 125 advancements
-[21Sep2020 18:49:29.328] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 128 advancements
-[21Sep2020 18:49:30.961] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 131 advancements
-[21Sep2020 18:49:31.761] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 134 advancements
-[21Sep2020 18:49:32.528] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 137 advancements
-[21Sep2020 18:49:33.445] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 140 advancements
-[21Sep2020 18:50:24.737] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 143 advancements
-[21Sep2020 18:50:44.848] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2020-09-21_18.50.44.png
-[21Sep2020 18:50:45.867] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[21Sep2020 18:50:45.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test'/minecraft:overworld
-[21Sep2020 18:50:46.356] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[21Sep2020 18:50:46.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[21Sep2020 18:50:46.382] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[21Sep2020 18:50:46.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[21Sep2020 18:50:46.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[21Sep2020 18:50:46.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[21Sep2020 18:50:46.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Test'/minecraft:overworld
-[21Sep2020 18:50:46.642] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test): All chunks are saved
-[21Sep2020 18:50:46.684] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Test): All chunks are saved
-[21Sep2020 18:50:48.371] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[28Sep2020 14:01:44.673] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:blue_jump_standard from simply_equine:recipes/blue_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:44.746] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:brown_jump_standard from simply_equine:recipes/brown_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:44.901] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:cyan_jump_standard from simply_equine:recipes/cyan_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.124] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:gray_jump_standard from simply_equine:recipes/gray_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.164] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:green_jump_standard from simply_equine:recipes/green_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.271] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:light_blue_jump_standard from simply_equine:recipes/light_blue_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.314] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:light_gray_jump_standard from simply_equine:recipes/light_gray_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.343] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:lime_green_jump_standard from simply_equine:recipes/lime_green_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.380] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:magenta_jump_standard from simply_equine:recipes/magenta_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.497] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:orange_jump_standard from simply_equine:recipes/orange_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.529] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:pink_jump_standard from simply_equine:recipes/pink_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.620] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:purple_jump_standard from simply_equine:recipes/purple_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.675] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:red_jump_standard from simply_equine:recipes/red_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.815] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:white_jump_standard from simply_equine:recipes/white_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:45.843] [Server-Worker-9/ERROR] [net.minecraft.client.resources.JsonReloadListener/]: Couldn't parse data file simply_equine:yellow_jump_standard from simply_equine:recipes/yellow_jump_standard.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:368) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:407) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:51) ~[?:?]
+	at net.minecraft.client.resources.JsonReloadListener.prepare(JsonReloadListener.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$0(ReloadListener.java:12) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) [?:1.8.0_212]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_212]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_212]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated array at line 7 column 6 path $.pattern[1]
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:476) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:730) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:366) ~[?:?]
+	... 10 more
+[28Sep2020 14:01:46.005] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[28Sep2020 14:01:50.291] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[28Sep2020 14:01:51.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Sep2020 14:01:53.684] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[28Sep2020 14:01:53.685] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[28Sep2020 14:01:53.685] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[28Sep2020 14:01:53.686] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[28Sep2020 14:01:53.686] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[28Sep2020 14:01:53.885] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[28Sep2020 14:01:54.417] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 59%
+[28Sep2020 14:01:54.484] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3110 ms
+[28Sep2020 14:01:55.001] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Sep2020 14:01:55.005] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Sep2020 14:01:55.013] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[28Sep2020 14:01:58.223] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[28Sep2020 14:01:58.540] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@30f4fbc6
+[28Sep2020 14:01:58.612] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:36ae5ce6] logged in with entity id 3 at (-123.05737345898409, 4.0, 175.93691815177556)
+[28Sep2020 14:01:58.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[28Sep2020 14:02:00.027] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[28Sep2020 14:02:00.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New'/minecraft:overworld
+[28Sep2020 14:02:00.693] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 19 advancements
+[28Sep2020 14:03:56.815] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2020-09-28_14.03.56.png
+[28Sep2020 14:03:57.666] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[28Sep2020 14:03:57.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New'/minecraft:overworld
+[28Sep2020 14:03:58.418] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[28Sep2020 14:03:58.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[28Sep2020 14:03:58.445] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[28Sep2020 14:03:58.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[28Sep2020 14:03:58.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[28Sep2020 14:03:58.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[28Sep2020 14:03:58.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'New'/minecraft:overworld
+[28Sep2020 14:03:58.516] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New): All chunks are saved
+[28Sep2020 14:03:58.553] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (New): All chunks are saved
+[28Sep2020 14:03:59.870] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

@@ -1,7 +1,6 @@
 package com.cholitoburitto.simplyequine.util;
 
-import com.cholitoburitto.simplyequine.blocks.JumpPoles;
-import com.cholitoburitto.simplyequine.blocks.ShavingsBlockLayers;
+import com.cholitoburitto.simplyequine.blocks.*;
 import com.cholitoburitto.simplyequine.blocks.doors.OakStallDoor;
 import com.cholitoburitto.simplyequine.simply_equine;
 import net.minecraft.block.*;
@@ -50,5 +49,58 @@ public class ModBlocks {
     public static final RegistryObject<Block> RED_JUMP_POLE = BLOCKS.register("red_jump_pole", () -> new JumpPoles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> WHITE_JUMP_POLE = BLOCKS.register("white_jump_pole", () -> new JumpPoles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> YELLOW_JUMP_POLE = BLOCKS.register("yellow_jump_pole", () -> new JumpPoles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+
+    //poles
+    public static final RegistryObject<Block> BLACK_POLE = BLOCKS.register("black_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BLUE_POLE = BLOCKS.register("blue_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BROWN_POLE = BLOCKS.register("brown_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> CYAN_POLE = BLOCKS.register("cyan_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GRAY_POLE = BLOCKS.register("gray_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_POLE = BLOCKS.register("green_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> LIGHT_BLUE_POLE = BLOCKS.register("light_blue_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> LIGHT_GRAY_POLE = BLOCKS.register("light_gray_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> LIME_GREEN_POLE = BLOCKS.register("lime_green_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> MAGENTA_POLE = BLOCKS.register("magenta_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> ORANGE_POLE = BLOCKS.register("orange_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PINK_POLE = BLOCKS.register("pink_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PURPLE_POLE = BLOCKS.register("purple_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> RED_POLE = BLOCKS.register("red_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> WHITE_POLE = BLOCKS.register("white_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> YELLOW_POLE = BLOCKS.register("yellow_pole", () -> new Poles(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+
+    //jump standard
+    public static final RegistryObject<Block> BLACK_JUMP_STANDARD = BLOCKS.register("black_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BLUE_JUMP_STANDARD = BLOCKS.register("blue_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BROWN_JUMP_STANDARD = BLOCKS.register("brown_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> CYAN_JUMP_STANDARD = BLOCKS.register("cyan_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GRAY_JUMP_STANDARD = BLOCKS.register("gray_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_JUMP_STANDARD = BLOCKS.register("green_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> LIGHT_BLUE_JUMP_STANDARD = BLOCKS.register("light_blue_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> LIGHT_GRAY_JUMP_STANDARD = BLOCKS.register("light_gray_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> LIME_GREEN_JUMP_STANDARD = BLOCKS.register("lime_green_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> MAGENTA_JUMP_STANDARD = BLOCKS.register("magenta_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> ORANGE_JUMP_STANDARD = BLOCKS.register("orange_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PINK_JUMP_STANDARD = BLOCKS.register("pink_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PURPLE_JUMP_STANDARD = BLOCKS.register("purple_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> RED_JUMP_STANDARD = BLOCKS.register("red_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> WHITE_JUMP_STANDARD = BLOCKS.register("white_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> YELLOW_JUMP_STANDARD = BLOCKS.register("yellow_jump_standard", () -> new JumpStandard(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+
+    public static final RegistryObject<Block> BLACK_MOUNTING_BLOCK = BLOCKS.register("black_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BLUE_MOUNTING_BLOCK = BLOCKS.register("blue_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BROWN_MOUNTING_BLOCK = BLOCKS.register("brown_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> CYAN_MOUNTING_BLOCK = BLOCKS.register("cyan_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GRAY_MOUNTING_BLOCK = BLOCKS.register("gray_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> GREEN_MOUNTING_BLOCK = BLOCKS.register("green_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> LIGHT_BLUE_MOUNTING_BLOCK = BLOCKS.register("light_blue_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> LIGHT_GRAY_MOUNTING_BLOCK = BLOCKS.register("light_gray_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> LIME_GREEN_MOUNTING_BLOCK = BLOCKS.register("lime_green_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> MAGENTA_MOUNTING_BLOCK = BLOCKS.register("magenta_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> ORANGE_MOUNTING_BLOCK = BLOCKS.register("orange_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PINK_MOUNTING_BLOCK = BLOCKS.register("pink_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PURPLE_MOUNTING_BLOCK = BLOCKS.register("purple_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> RED_MOUNTING_BLOCK = BLOCKS.register("red_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> WHITE_MOUNTING_BLOCK = BLOCKS.register("white_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> YELLOW_MOUNTING_BLOCK = BLOCKS.register("yellow_mounting_block", () -> new MountingBlock(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD)));
 
 }

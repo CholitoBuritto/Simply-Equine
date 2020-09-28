@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mountingblock",
+  "pattern":
+  [
+    "w  "
+    "ww "
+  ],
+  "key":
+  {
+    "w":
+    {
+      "item": "minecraft:red_concrete"
+    }
+  },
+  "result":
+  {
+    "item": "simply_equine:red_mounting_block",
+    "count": 1
+  }
+}
