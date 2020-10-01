@@ -52,9 +52,9 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
     @Override
     public void writeAdditional(CompoundNBT compound) {
         super.writeAdditional(compound);
-        compound.putString("textureprefix", texturePrefix);
-        compound.putString("texture", mareTexturesArray[0]);
-        compound.putString("mark", mareTexturesArray[1]);
+        compound.putString("textureprefix", getMareTexture());
+        compound.putString("texture", getVariantTexturePaths()[0]);
+        compound.putString("mark", getVariantTexturePaths()[1]);
     }
 
     @Override
