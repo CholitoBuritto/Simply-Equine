@@ -1,6 +1,7 @@
 package util;
 
 import com.cholitoburitto.simplyequine.simply_equine;
+import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -249,13 +250,18 @@ public class RegistryHandler {
     public static final RegistryObject<Item> THATCH_STAIRS = ITEMS.register("thatch_stairs", () -> new BlockItem(ModBlocks.THATCH_STAIRS.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
     public static final RegistryObject<Item> THATCH_SLABS = ITEMS.register("thatch_slabs", () -> new BlockItem(ModBlocks.THATCH_SLABS.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
     public static final RegistryObject<Item> SHAVINGS_BLOCK = ITEMS.register("shavings_block", () -> new BlockItem(ModBlocks.SHAVINGS_BLOCK.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
-    public static final RegistryObject<Item>  STALL_BARS_1 = ITEMS.register("stall_bars_1", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.STALL_BARS_1.get()));
-    public static final RegistryObject<Item>  OAK_STALL_DOOR = ITEMS.register("oak_stall_door", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.OAK_STALL_DOOR.get()));
-    public static final RegistryObject<Item>  SPRUCE_STALL_DOOR = ITEMS.register("spruce_stall_door", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.SPRUCE_STALL_DOOR.get()));
-    public static final RegistryObject<Item>  ACACIA_STALL_DOOR = ITEMS.register("acacia_stall_door", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.ACACIA_STALL_DOOR.get()));
-    public static final RegistryObject<Item>  JUNGLE_STALL_DOOR = ITEMS.register("jungle_stall_door", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.JUNGLE_STALL_DOOR.get()));
-    public static final RegistryObject<Item>  BIRCH_STALL_DOOR = ITEMS.register("birch_stall_door", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.BIRCH_STALL_DOOR.get()));
-    public static final RegistryObject<Item>  DARK_OAK_STALL_DOOR = ITEMS.register("dark_oak_stall_door", () -> new com.cholitoburitto.simplyequine.blocks.BlockItemBase(ModBlocks.DARK_OAK_STALL_DOOR.get()));
+    public static final RegistryObject<Item>  STALL_BARS_1 = ITEMS.register("stall_bars_1", () -> makeBlockItem(com.cholitoburitto.simplyequine.util.ModBlocks.STALL_BARS_1));
+    public static final RegistryObject<Item>  OAK_STALL_DOOR = ITEMS.register("oak_stall_door", () -> makeBlockItem(com.cholitoburitto.simplyequine.util.ModBlocks.OAK_STALL_DOOR));
+    public static final RegistryObject<Item>  SPRUCE_STALL_DOOR = ITEMS.register("spruce_stall_door", () -> makeBlockItem(com.cholitoburitto.simplyequine.util.ModBlocks.SPRUCE_STALL_DOOR));
+    public static final RegistryObject<Item>  ACACIA_STALL_DOOR = ITEMS.register("acacia_stall_door", () -> makeBlockItem(com.cholitoburitto.simplyequine.util.ModBlocks.ACACIA_STALL_DOOR));
+    public static final RegistryObject<Item>  JUNGLE_STALL_DOOR = ITEMS.register("jungle_stall_door", () -> makeBlockItem(com.cholitoburitto.simplyequine.util.ModBlocks.JUNGLE_STALL_DOOR));
+    public static final RegistryObject<Item>  BIRCH_STALL_DOOR = ITEMS.register("birch_stall_door", () -> makeBlockItem(com.cholitoburitto.simplyequine.util.ModBlocks.BIRCH_STALL_DOOR));
+    public static final RegistryObject<Item>  DARK_OAK_STALL_DOOR = ITEMS.register("dark_oak_stall_door", () -> makeBlockItem(com.cholitoburitto.simplyequine.util.ModBlocks.DARK_OAK_STALL_DOOR));
+
+    private static BlockItem makeBlockItem(RegistryObject<Block> block)
+    {
+        return new BlockItem(block.get(), new Item.Properties().group(simply_equine.EQUINE_BLOCKS));
+    }
 
     //stall mats
     public static final RegistryObject<Item> BLACK_CROSSED_STALL_MAT = ITEMS.register("black_crossed_stall_mat", () -> new BlockItem(ModBlocks.BLACK_CROSSED_STALL_MAT.get(), new Item.Properties().maxStackSize(64).group(simply_equine.EQUINE_BLOCKS)));
