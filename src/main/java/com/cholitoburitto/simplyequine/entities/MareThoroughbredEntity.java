@@ -35,6 +35,7 @@ import java.sql.Ref;
 
 public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnimatedEntity {
     private static final String[] MARE_TEXTURES = new String[]{"textures/entity/mare_thoroughbred/mare_thoroughbred_black.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_brown.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_chestnut.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_redchestnut.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_white.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_bay.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_dapple_rose_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_fleabitten_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_light_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_palomino.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_roan.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_rose_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_steel_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_white_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_blue_roan.png"};
+    private static final String[] MT = new String[]{"aa", "bb", "cc", "dd", "ee", "ff", "gg", "hh", "ii", "jj", "kk", "ll", "mm", "nn", "oo", "pp"};
     private static final String[] MARE_FACE_MARKING_TEXTURES = new String[]{"textures/entity/mare_thoroughbred_markings/mare_thoroughbred_blaze.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_strip.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_star.png"};
     private String texturePrefix;
     private final String[] mareTexturesArray = new String[2];
@@ -66,9 +67,11 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
     }
 
     private void setMareTexturePaths() {
-        this.mareTexturesArray[0] = simply_equine.MOD_ID + ":" + MARE_TEXTURES[rand.nextInt(MARE_TEXTURES.length)];
-        this.mareTexturesArray[1] = simply_equine.MOD_ID + ":" + MARE_FACE_MARKING_TEXTURES[rand.nextInt(MARE_FACE_MARKING_TEXTURES.length)];
-        this.texturePrefix = "mare/" + "textures/entity/mare_thoroughbred"  + "textures/entity/mare_thoroughbred_markings";
+        int i = rand.nextInt(MARE_TEXTURES.length);
+        int j = rand.nextInt(MARE_FACE_MARKING_TEXTURES.length);
+        this.mareTexturesArray[0] = simply_equine.MOD_ID + ":" + MARE_TEXTURES[i];
+        this.mareTexturesArray[1] = simply_equine.MOD_ID + ":" + MARE_FACE_MARKING_TEXTURES[j];
+        this.texturePrefix = "mare/" + MT[i] + MT[j];
     }
 
     public String getMareTexture() {
