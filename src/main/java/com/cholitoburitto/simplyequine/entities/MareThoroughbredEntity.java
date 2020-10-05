@@ -37,8 +37,9 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
     private static final String[] MARE_TEXTURES = new String[]{"textures/entity/mare_thoroughbred/mare_thoroughbred_black.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_brown.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_chestnut.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_redchestnut.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_white.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_bay.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_dapple_rose_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_fleabitten_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_light_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_palomino.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_roan.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_rose_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_steel_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_white_gray.png", "textures/entity/mare_thoroughbred/mare_thoroughbred_blue_roan.png"};
     private static final String[] MT = new String[]{"aa", "bb", "cc", "dd", "ee", "ff", "gg", "hh", "ii", "jj", "kk", "ll", "mm", "nn", "oo", "pp"};
     private static final String[] MARE_FACE_MARKING_TEXTURES = new String[]{"textures/entity/mare_thoroughbred_markings/mare_thoroughbred_blaze.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_strip.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_star.png"};
+    private static final String[] MARE_EYE_COLOUR_TEXTURES = new String[]{"textures/entity/mare_thoroughbred_eye_colours/mare_thoroughbred_blue_eyes.png", "textures/entity/mare_thoroughbred_eye_colours/mare_thoroughbred_brown_eyes.png", "textures/entity/mare_thoroughbred_eye_colours/mare_thoroughbred_green_eyes.png", "textures/entity/mare_thoroughbred_eye_colours/mare_thoroughbred_hazel_eyes.png"};
     private String texturePrefix;
-    private final String[] mareTexturesArray = new String[2];
+    private final String[] mareTexturesArray = new String[3];
 
     private EatGrassGoal eatGrassGoal;
     private int exampleTimer;
@@ -56,6 +57,7 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
         compound.putString("textureprefix", getMareTexture());
         compound.putString("texture", getVariantTexturePaths()[0]);
         compound.putString("mark", getVariantTexturePaths()[1]);
+        compound.putString("eye", getVariantTexturePaths()[2]);
     }
 
     @Override
@@ -64,14 +66,17 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
         texturePrefix = compound.getString("textureprefix");
         mareTexturesArray[0] = compound.getString("texture");
         mareTexturesArray[1] = compound.getString("mark");
+        mareTexturesArray[2] = compound.getString("eye");
     }
 
     private void setMareTexturePaths() {
         int i = rand.nextInt(MARE_TEXTURES.length);
         int j = rand.nextInt(MARE_FACE_MARKING_TEXTURES.length);
+        int l = rand.nextInt(MARE_FACE_MARKING_TEXTURES.length);
         this.mareTexturesArray[0] = simply_equine.MOD_ID + ":" + MARE_TEXTURES[i];
         this.mareTexturesArray[1] = simply_equine.MOD_ID + ":" + MARE_FACE_MARKING_TEXTURES[j];
-        this.texturePrefix = "mare/" + MT[i] + MT[j];
+        this.mareTexturesArray[2] = simply_equine.MOD_ID + ":" + MARE_EYE_COLOUR_TEXTURES[j];
+        this.texturePrefix = "mare/" + MT[i] + MT[j] + MT[l];
     }
 
     public String getMareTexture() {
