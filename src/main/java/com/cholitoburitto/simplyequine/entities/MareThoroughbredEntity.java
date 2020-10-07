@@ -38,8 +38,12 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
     private static final String[] MT = new String[]{"aa", "bb", "cc", "dd", "ee", "ff", "gg", "hh", "ii", "jj", "kk", "ll", "mm", "nn", "oo", "pp"};
     private static final String[] MARE_FACE_MARKING_TEXTURES = new String[]{"textures/entity/mare_thoroughbred_markings/mare_thoroughbred_blaze.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_strip.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_star.png"};
     private static final String[] MARE_EYE_COLOUR_TEXTURES = new String[]{"textures/entity/mare_thoroughbred_eye_colours/mare_thoroughbred_blue_eyes.png", "textures/entity/mare_thoroughbred_eye_colours/mare_thoroughbred_brown_eyes.png", "textures/entity/mare_thoroughbred_eye_colours/mare_thoroughbred_green_eyes.png", "textures/entity/mare_thoroughbred_eye_colours/mare_thoroughbred_hazel_eyes.png"};
+    private static final String[] MARE_LEG_MARKING_FRONT_LEFT_TEXTURES = new String[]{"textures/entity/mare_thoroughbred_markings/mare_thoroughbred_left_pastern.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_left_sock.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_left_stocking.png"};
+    private static final String[] MARE_LEG_MARKING_FRONT_RIGHT_TEXTURES = new String[]{"textures/entity/mare_thoroughbred_markings/mare_thoroughbred_right_pastern.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_right_sock.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_right_stocking.png"};
+    private static final String[] MARE_LEG_MARKING_BACK_LEFT_TEXTURES = new String[]{"textures/entity/mare_thoroughbred_markings/mare_thoroughbred_back_left_pastern.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_back_left_sock.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_back_left_stocking.png"};
+    private static final String[] MARE_LEG_MARKING_BACK_RIGHT_TEXTURES = new String[]{"textures/entity/mare_thoroughbred_markings/mare_thoroughbred_back_right_pastern.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_back_right_sock.png", "textures/entity/mare_thoroughbred_markings/mare_thoroughbred_back_right_stocking.png"};
     private String texturePrefix;
-    private final String[] mareTexturesArray = new String[3];
+    private final String[] mareTexturesArray = new String[7];
 
     private EatGrassGoal eatGrassGoal;
     private int exampleTimer;
@@ -58,6 +62,10 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
         compound.putString("texture", getVariantTexturePaths()[0]);
         compound.putString("mark", getVariantTexturePaths()[1]);
         compound.putString("eye", getVariantTexturePaths()[2]);
+        compound.putString("leg_mark_f_l", getVariantTexturePaths()[3]);
+        compound.putString("leg_mark_f_r", getVariantTexturePaths()[4]);
+        compound.putString("leg_mark_b_l", getVariantTexturePaths()[5]);
+        compound.putString("leg_mark_b_r", getVariantTexturePaths()[6]);
     }
 
     @Override
@@ -67,16 +75,28 @@ public class MareThoroughbredEntity extends AbstractHorseEntity implements IAnim
         mareTexturesArray[0] = compound.getString("texture");
         mareTexturesArray[1] = compound.getString("mark");
         mareTexturesArray[2] = compound.getString("eye");
+        mareTexturesArray[3] = compound.getString("leg_mark_f_l");
+        mareTexturesArray[4] = compound.getString("leg_mark_f_r");
+        mareTexturesArray[5] = compound.getString("leg_mark_b_l");
+        mareTexturesArray[6] = compound.getString("leg_mark_b_r");
     }
 
     private void setMareTexturePaths() {
         int i = rand.nextInt(MARE_TEXTURES.length);
         int j = rand.nextInt(MARE_FACE_MARKING_TEXTURES.length);
-        int l = rand.nextInt(MARE_FACE_MARKING_TEXTURES.length);
+        int g = rand.nextInt(MARE_FACE_MARKING_TEXTURES.length);
+        int f_l = rand.nextInt(MARE_LEG_MARKING_FRONT_LEFT_TEXTURES.length);
+        int f_r = rand.nextInt(MARE_LEG_MARKING_FRONT_RIGHT_TEXTURES.length);
+        int b_l = rand.nextInt(MARE_LEG_MARKING_BACK_LEFT_TEXTURES.length);
+        int b_r = rand.nextInt(MARE_LEG_MARKING_BACK_RIGHT_TEXTURES.length);
         this.mareTexturesArray[0] = simply_equine.MOD_ID + ":" + MARE_TEXTURES[i];
         this.mareTexturesArray[1] = simply_equine.MOD_ID + ":" + MARE_FACE_MARKING_TEXTURES[j];
-        this.mareTexturesArray[2] = simply_equine.MOD_ID + ":" + MARE_EYE_COLOUR_TEXTURES[j];
-        this.texturePrefix = "mare/" + MT[i] + MT[j] + MT[l];
+        this.mareTexturesArray[2] = simply_equine.MOD_ID + ":" + MARE_EYE_COLOUR_TEXTURES[g];
+        this.mareTexturesArray[3] = simply_equine.MOD_ID + ":" + MARE_LEG_MARKING_FRONT_LEFT_TEXTURES[f_l];
+        this.mareTexturesArray[4] = simply_equine.MOD_ID + ":" + MARE_LEG_MARKING_FRONT_RIGHT_TEXTURES[f_r];
+        this.mareTexturesArray[5] = simply_equine.MOD_ID + ":" + MARE_LEG_MARKING_BACK_LEFT_TEXTURES[b_l];
+        this.mareTexturesArray[6] = simply_equine.MOD_ID + ":" + MARE_LEG_MARKING_BACK_RIGHT_TEXTURES[b_r];
+        this.texturePrefix = "mare/" + MT[i] + MT[j] + MT[g] + MT[f_l] + MT[f_r] + MT[b_l] + MT[b_r];
     }
 
     public String getMareTexture() {
